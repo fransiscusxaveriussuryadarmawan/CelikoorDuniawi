@@ -85,7 +85,7 @@
             // textBoxUname
             // 
             this.textBoxUname.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUname.Location = new System.Drawing.Point(262, 206);
+            this.textBoxUname.Location = new System.Drawing.Point(326, 206);
             this.textBoxUname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxUname.Name = "textBoxUname";
             this.textBoxUname.Size = new System.Drawing.Size(316, 47);
