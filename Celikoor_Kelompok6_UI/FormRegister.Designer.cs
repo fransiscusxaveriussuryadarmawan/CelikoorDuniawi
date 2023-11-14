@@ -69,7 +69,7 @@
             this.textBoxPassword.Location = new System.Drawing.Point(262, 278);
             this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(316, 39);
+            this.textBoxPassword.Size = new System.Drawing.Size(316, 47);
             this.textBoxPassword.TabIndex = 13;
             // 
             // labelPass
@@ -78,7 +78,7 @@
             this.labelPass.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPass.Location = new System.Drawing.Point(131, 278);
             this.labelPass.Name = "labelPass";
-            this.labelPass.Size = new System.Drawing.Size(125, 35);
+            this.labelPass.Size = new System.Drawing.Size(157, 43);
             this.labelPass.TabIndex = 12;
             this.labelPass.Text = "Password";
             // 
@@ -88,7 +88,7 @@
             this.textBoxUname.Location = new System.Drawing.Point(262, 206);
             this.textBoxUname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxUname.Name = "textBoxUname";
-            this.textBoxUname.Size = new System.Drawing.Size(316, 39);
+            this.textBoxUname.Size = new System.Drawing.Size(316, 47);
             this.textBoxUname.TabIndex = 11;
             // 
             // labelUname
@@ -97,7 +97,7 @@
             this.labelUname.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelUname.Location = new System.Drawing.Point(127, 206);
             this.labelUname.Name = "labelUname";
-            this.labelUname.Size = new System.Drawing.Size(144, 35);
+            this.labelUname.Size = new System.Drawing.Size(181, 43);
             this.labelUname.TabIndex = 10;
             this.labelUname.Text = "Username ";
             // 
@@ -118,22 +118,22 @@
             this.textBox1.Location = new System.Drawing.Point(262, 133);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(316, 39);
+            this.textBox1.Size = new System.Drawing.Size(316, 47);
             this.textBox1.TabIndex = 17;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(175, 138);
+            this.label1.Location = new System.Drawing.Point(131, 137);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 35);
+            this.label1.Size = new System.Drawing.Size(103, 43);
             this.label1.TabIndex = 16;
             this.label1.Text = "Email";
             // 
             // FormRegister
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(793, 453);
             this.Controls.Add(this.textBox1);
