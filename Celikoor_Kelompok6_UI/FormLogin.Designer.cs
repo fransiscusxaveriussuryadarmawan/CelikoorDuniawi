@@ -34,7 +34,6 @@
             this.labelPass = new System.Windows.Forms.Label();
             this.buttonMasuk = new System.Windows.Forms.Button();
             this.buttonKembali = new System.Windows.Forms.Button();
-            this.linkFP = new System.Windows.Forms.LinkLabel();
             this.linkRegister = new System.Windows.Forms.LinkLabel();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -107,26 +106,13 @@
             this.buttonKembali.UseVisualStyleBackColor = false;
             this.buttonKembali.Click += new System.EventHandler(this.buttonKembali_Click);
             // 
-            // linkFP
-            // 
-            this.linkFP.AutoSize = true;
-            this.linkFP.Font = new System.Drawing.Font("Trebuchet MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkFP.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.linkFP.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.linkFP.Location = new System.Drawing.Point(243, 328);
-            this.linkFP.Name = "linkFP";
-            this.linkFP.Size = new System.Drawing.Size(146, 23);
-            this.linkFP.TabIndex = 7;
-            this.linkFP.TabStop = true;
-            this.linkFP.Text = "Forgot Password?";
-            // 
             // linkRegister
             // 
             this.linkRegister.AutoSize = true;
             this.linkRegister.Font = new System.Drawing.Font("Trebuchet MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkRegister.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.linkRegister.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.linkRegister.Location = new System.Drawing.Point(411, 328);
+            this.linkRegister.Location = new System.Drawing.Point(552, 329);
             this.linkRegister.Name = "linkRegister";
             this.linkRegister.Size = new System.Drawing.Size(170, 23);
             this.linkRegister.TabIndex = 8;
@@ -164,7 +150,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.linkRegister);
-            this.Controls.Add(this.linkFP);
             this.Controls.Add(this.buttonKembali);
             this.Controls.Add(this.buttonMasuk);
             this.Controls.Add(this.textBoxPassword);
@@ -189,7 +174,6 @@
         private System.Windows.Forms.Label labelPass;
         private System.Windows.Forms.Button buttonMasuk;
         private System.Windows.Forms.Button buttonKembali;
-        private System.Windows.Forms.LinkLabel linkFP;
         private System.Windows.Forms.LinkLabel linkRegister;
         private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.Label label1;
