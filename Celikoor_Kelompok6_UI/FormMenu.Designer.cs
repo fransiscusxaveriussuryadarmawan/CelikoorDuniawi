@@ -41,7 +41,9 @@
             this.pegawaiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.konsumenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labelJudul = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -54,7 +56,7 @@
             this.adminToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(758, 34);
+            this.menuStrip1.Size = new System.Drawing.Size(846, 34);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,8 +67,8 @@
             this.logoutToolStripMenuItem});
             this.akunToolStripMenuItem.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.akunToolStripMenuItem.Name = "akunToolStripMenuItem";
-            this.akunToolStripMenuItem.Size = new System.Drawing.Size(70, 30);
-            this.akunToolStripMenuItem.Text = "Akun";
+            this.akunToolStripMenuItem.Size = new System.Drawing.Size(74, 30);
+            this.akunToolStripMenuItem.Text = "Profil";
             // 
             // changePasswordToolStripMenuItem
             // 
@@ -95,25 +97,25 @@
             // daftarFilmToolStripMenuItem
             // 
             this.daftarFilmToolStripMenuItem.Name = "daftarFilmToolStripMenuItem";
-            this.daftarFilmToolStripMenuItem.Size = new System.Drawing.Size(155, 30);
+            this.daftarFilmToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.daftarFilmToolStripMenuItem.Text = "Films";
             // 
             // genreToolStripMenuItem
             // 
             this.genreToolStripMenuItem.Name = "genreToolStripMenuItem";
-            this.genreToolStripMenuItem.Size = new System.Drawing.Size(155, 30);
+            this.genreToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.genreToolStripMenuItem.Text = "Genre";
             // 
             // aktorToolStripMenuItem
             // 
             this.aktorToolStripMenuItem.Name = "aktorToolStripMenuItem";
-            this.aktorToolStripMenuItem.Size = new System.Drawing.Size(155, 30);
+            this.aktorToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.aktorToolStripMenuItem.Text = "Aktor";
             // 
             // studioToolStripMenuItem
             // 
             this.studioToolStripMenuItem.Name = "studioToolStripMenuItem";
-            this.studioToolStripMenuItem.Size = new System.Drawing.Size(155, 30);
+            this.studioToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.studioToolStripMenuItem.Text = "Studio";
             // 
             // adminToolStripMenuItem
@@ -129,40 +131,56 @@
             // pegawaiToolStripMenuItem
             // 
             this.pegawaiToolStripMenuItem.Name = "pegawaiToolStripMenuItem";
-            this.pegawaiToolStripMenuItem.Size = new System.Drawing.Size(189, 30);
+            this.pegawaiToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.pegawaiToolStripMenuItem.Text = "Pegawai";
             // 
             // konsumenToolStripMenuItem
             // 
             this.konsumenToolStripMenuItem.Name = "konsumenToolStripMenuItem";
-            this.konsumenToolStripMenuItem.Size = new System.Drawing.Size(189, 30);
+            this.konsumenToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.konsumenToolStripMenuItem.Text = "Konsumen";
             // 
             // labelJudul
             // 
             this.labelJudul.BackColor = System.Drawing.Color.Beige;
             this.labelJudul.Font = new System.Drawing.Font("Trebuchet MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelJudul.Location = new System.Drawing.Point(-43, 30);
+            this.labelJudul.Location = new System.Drawing.Point(0, 36);
             this.labelJudul.Name = "labelJudul";
             this.labelJudul.Size = new System.Drawing.Size(801, 116);
             this.labelJudul.TabIndex = 1;
             this.labelJudul.Text = "Celikoor 21";
             this.labelJudul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::Celikoor_Kelompok6_UI.Properties.Resources.logo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(215, 164);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(400, 400);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(758, 146);
+            this.BackColor = System.Drawing.Color.Beige;
+            this.ClientSize = new System.Drawing.Size(846, 605);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelJudul);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,6 +201,7 @@
         private System.Windows.Forms.ToolStripMenuItem pegawaiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem konsumenToolStripMenuItem;
         private System.Windows.Forms.Label labelJudul;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

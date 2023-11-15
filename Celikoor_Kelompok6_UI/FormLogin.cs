@@ -29,9 +29,8 @@ namespace Celikoor_Kelompok6_UI
 
         private void buttonMasuk_Click(object sender, EventArgs e)
         {
-            FormMenu frmMenu = new FormMenu();
-            frmMenu.Owner = this;
-            frmMenu.ShowDialog();
+            string user = textBoxUname.Text;
+            string pass = textBoxPassword.Text;
         }
     }
 }

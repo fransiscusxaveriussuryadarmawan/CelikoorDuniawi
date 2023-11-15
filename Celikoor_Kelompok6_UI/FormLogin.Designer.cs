@@ -139,7 +139,7 @@
             this.pictureBoxLogo.BackgroundImage = global::Celikoor_Kelompok6_UI.Properties.Resources.logo;
             this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBoxLogo.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(12, 12);
+            this.pictureBoxLogo.Location = new System.Drawing.Point(41, 12);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.Size = new System.Drawing.Size(150, 150);
             this.pictureBoxLogo.TabIndex = 9;
@@ -149,7 +149,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(181, 57);
+            this.label1.Location = new System.Drawing.Point(222, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(485, 59);
             this.label1.TabIndex = 10;

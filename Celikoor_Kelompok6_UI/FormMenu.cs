@@ -16,5 +16,15 @@ namespace Celikoor_Kelompok6_UI
         {
             InitializeComponent();
         }
+
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+
+            FormLogin frmLogin = new FormLogin();
+            frmLogin.Owner = this;
+            this.Visible = false;
+            frmLogin.ShowDialog();
+        }
     }
 }
