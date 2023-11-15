@@ -43,10 +43,10 @@
             // 
             this.buttonKembali.BackColor = System.Drawing.Color.Aquamarine;
             this.buttonKembali.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKembali.Location = new System.Drawing.Point(672, 400);
+            this.buttonKembali.Location = new System.Drawing.Point(620, 400);
             this.buttonKembali.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonKembali.Name = "buttonKembali";
-            this.buttonKembali.Size = new System.Drawing.Size(116, 48);
+            this.buttonKembali.Size = new System.Drawing.Size(168, 48);
             this.buttonKembali.TabIndex = 15;
             this.buttonKembali.Text = "Kembali";
             this.buttonKembali.UseVisualStyleBackColor = false;
@@ -55,10 +55,10 @@
             // 
             this.buttonDaftar.BackColor = System.Drawing.Color.Aquamarine;
             this.buttonDaftar.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDaftar.Location = new System.Drawing.Point(262, 345);
+            this.buttonDaftar.Location = new System.Drawing.Point(7, 400);
             this.buttonDaftar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonDaftar.Name = "buttonDaftar";
-            this.buttonDaftar.Size = new System.Drawing.Size(99, 48);
+            this.buttonDaftar.Size = new System.Drawing.Size(163, 48);
             this.buttonDaftar.TabIndex = 14;
             this.buttonDaftar.Text = "Daftar";
             this.buttonDaftar.UseVisualStyleBackColor = false;
