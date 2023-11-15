@@ -16,5 +16,22 @@ namespace Celikoor_Kelompok6_UI
         {
             InitializeComponent();
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonKembali_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonMasuk_Click(object sender, EventArgs e)
+        {
+            FormMenu frmMenu = new FormMenu();
+            frmMenu.Owner = this;
+            frmMenu.ShowDialog();
+        }
     }
 }

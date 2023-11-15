@@ -1,0 +1,13 @@
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\bin\Debug\Celikoor_Kelompok6_UI.exe.config
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\bin\Debug\Celikoor_Kelompok6_UI.exe
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\bin\Debug\Celikoor_Kelompok6_UI.pdb
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.csproj.AssemblyReference.cache
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.csproj.SuggestedBindingRedirects.cache
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.FormLogin.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.FormMenu.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.FormRegister.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.Properties.Resources.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.csproj.GenerateResource.cache
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.csproj.CoreCompileInputs.cache
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.exe
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.pdb

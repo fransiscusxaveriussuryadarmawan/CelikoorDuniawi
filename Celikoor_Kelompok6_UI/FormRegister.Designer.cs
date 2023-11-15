@@ -66,7 +66,7 @@
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(262, 278);
+            this.textBoxPassword.Location = new System.Drawing.Point(326, 278);
             this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(316, 47);
