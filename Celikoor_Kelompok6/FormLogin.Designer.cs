@@ -139,7 +139,8 @@ namespace Celikoor_Kelompok6
             this.pictureBoxLogo.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBoxLogo.Location = new System.Drawing.Point(30, 12);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(150, 150);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(175, 150);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLogo.TabIndex = 27;
             this.pictureBoxLogo.TabStop = false;
             // 
@@ -158,6 +159,7 @@ namespace Celikoor_Kelompok6
             this.Controls.Add(this.labelPass);
             this.Controls.Add(this.textBoxUname);
             this.Controls.Add(this.labelUname);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
