@@ -27,5 +27,13 @@ namespace Celikoor_Kelompok6
             string user = textBoxUname.Text;
             string pass = textBoxPassword.Text;
         }
+
+        private void linkRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormRegister formRegister = new FormRegister();
+            formRegister.Owner = this;
+            this.Hide();
+            formRegister.ShowDialog();
+        }
     }
 }

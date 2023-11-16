@@ -63,6 +63,7 @@ namespace Celikoor_Kelompok6
             this.linkRegister.TabIndex = 26;
             this.linkRegister.TabStop = true;
             this.linkRegister.Text = "Don\'t have account?";
+            this.linkRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkRegister_LinkClicked);
             // 
             // buttonKembali
             // 

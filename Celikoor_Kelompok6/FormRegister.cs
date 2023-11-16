@@ -19,7 +19,10 @@ namespace Celikoor_Kelompok6
 
         private void buttonKembali_Click(object sender, EventArgs e)
         {
-            this.Close();
+            FormLogin formLogin = new FormLogin();
+            formLogin.Owner = this;
+            this.Hide();
+            formLogin.ShowDialog();
         }
     }
 }

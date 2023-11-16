@@ -24,7 +24,7 @@ namespace Celikoor_Kelompok6
 
             FormLogin frmLogin = new FormLogin();
             frmLogin.Owner = this;
-            this.Visible = false;
+            this.Hide();
             frmLogin.ShowDialog();
         }
 
