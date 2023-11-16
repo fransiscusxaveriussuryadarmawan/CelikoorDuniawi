@@ -50,15 +50,16 @@ namespace Celikoor_Kelompok6
             this.dateTimePickerTanggalLahir = new System.Windows.Forms.DateTimePicker();
             this.radioButtonLaki = new System.Windows.Forms.RadioButton();
             this.radioButtonWanita = new System.Windows.Forms.RadioButton();
+            this.checkBoxShowPass = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(373, 164);
+            this.textBox1.Location = new System.Drawing.Point(294, 164);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(443, 39);
+            this.textBox1.Size = new System.Drawing.Size(522, 39);
             this.textBox1.TabIndex = 35;
             // 
             // label1
@@ -75,7 +76,7 @@ namespace Celikoor_Kelompok6
             // 
             this.buttonKembali.BackColor = System.Drawing.Color.Tan;
             this.buttonKembali.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKembali.Location = new System.Drawing.Point(648, 755);
+            this.buttonKembali.Location = new System.Drawing.Point(648, 770);
             this.buttonKembali.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonKembali.Name = "buttonKembali";
             this.buttonKembali.Size = new System.Drawing.Size(168, 48);
@@ -88,7 +89,7 @@ namespace Celikoor_Kelompok6
             // 
             this.buttonDaftar.BackColor = System.Drawing.Color.Tan;
             this.buttonDaftar.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDaftar.Location = new System.Drawing.Point(47, 755);
+            this.buttonDaftar.Location = new System.Drawing.Point(46, 770);
             this.buttonDaftar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonDaftar.Name = "buttonDaftar";
             this.buttonDaftar.Size = new System.Drawing.Size(163, 48);
@@ -99,10 +100,10 @@ namespace Celikoor_Kelompok6
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(373, 302);
+            this.textBoxPassword.Location = new System.Drawing.Point(294, 302);
             this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(443, 39);
+            this.textBoxPassword.Size = new System.Drawing.Size(522, 39);
             this.textBoxPassword.TabIndex = 31;
             // 
             // labelPass
@@ -118,10 +119,10 @@ namespace Celikoor_Kelompok6
             // textBoxUname
             // 
             this.textBoxUname.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUname.Location = new System.Drawing.Point(373, 231);
+            this.textBoxUname.Location = new System.Drawing.Point(294, 231);
             this.textBoxUname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxUname.Name = "textBoxUname";
-            this.textBoxUname.Size = new System.Drawing.Size(443, 39);
+            this.textBoxUname.Size = new System.Drawing.Size(522, 39);
             this.textBoxUname.TabIndex = 29;
             // 
             // labelUname
@@ -198,35 +199,35 @@ namespace Celikoor_Kelompok6
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(373, 512);
+            this.textBox2.Location = new System.Drawing.Point(294, 512);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(443, 39);
+            this.textBox2.Size = new System.Drawing.Size(522, 39);
             this.textBox2.TabIndex = 41;
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(373, 589);
+            this.textBox3.Location = new System.Drawing.Point(294, 589);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(443, 39);
+            this.textBox3.Size = new System.Drawing.Size(522, 39);
             this.textBox3.TabIndex = 42;
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(373, 664);
+            this.textBox4.Location = new System.Drawing.Point(294, 664);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(443, 39);
+            this.textBox4.Size = new System.Drawing.Size(522, 39);
             this.textBox4.TabIndex = 43;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Tan;
             this.button1.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(359, 755);
+            this.button1.Location = new System.Drawing.Point(342, 770);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(163, 48);
@@ -237,16 +238,16 @@ namespace Celikoor_Kelompok6
             // dateTimePickerTanggalLahir
             // 
             this.dateTimePickerTanggalLahir.Font = new System.Drawing.Font("Trebuchet MS", 16.2F);
-            this.dateTimePickerTanggalLahir.Location = new System.Drawing.Point(373, 442);
+            this.dateTimePickerTanggalLahir.Location = new System.Drawing.Point(294, 442);
             this.dateTimePickerTanggalLahir.Name = "dateTimePickerTanggalLahir";
-            this.dateTimePickerTanggalLahir.Size = new System.Drawing.Size(443, 39);
+            this.dateTimePickerTanggalLahir.Size = new System.Drawing.Size(522, 39);
             this.dateTimePickerTanggalLahir.TabIndex = 45;
             // 
             // radioButtonLaki
             // 
             this.radioButtonLaki.AutoSize = true;
             this.radioButtonLaki.Font = new System.Drawing.Font("Trebuchet MS", 16.2F);
-            this.radioButtonLaki.Location = new System.Drawing.Point(373, 370);
+            this.radioButtonLaki.Location = new System.Drawing.Point(294, 370);
             this.radioButtonLaki.Name = "radioButtonLaki";
             this.radioButtonLaki.Size = new System.Drawing.Size(87, 40);
             this.radioButtonLaki.TabIndex = 46;
@@ -258,7 +259,7 @@ namespace Celikoor_Kelompok6
             // 
             this.radioButtonWanita.AutoSize = true;
             this.radioButtonWanita.Font = new System.Drawing.Font("Trebuchet MS", 16.2F);
-            this.radioButtonWanita.Location = new System.Drawing.Point(510, 370);
+            this.radioButtonWanita.Location = new System.Drawing.Point(462, 370);
             this.radioButtonWanita.Name = "radioButtonWanita";
             this.radioButtonWanita.Size = new System.Drawing.Size(122, 40);
             this.radioButtonWanita.TabIndex = 47;
@@ -266,12 +267,28 @@ namespace Celikoor_Kelompok6
             this.radioButtonWanita.Text = "Wanita";
             this.radioButtonWanita.UseVisualStyleBackColor = true;
             // 
+            // checkBoxShowPass
+            // 
+            this.checkBoxShowPass.AutoSize = true;
+            this.checkBoxShowPass.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.checkBoxShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBoxShowPass.Font = new System.Drawing.Font("Trebuchet MS", 10.8F);
+            this.checkBoxShowPass.ForeColor = System.Drawing.Color.DimGray;
+            this.checkBoxShowPass.Location = new System.Drawing.Point(658, 719);
+            this.checkBoxShowPass.Name = "checkBoxShowPass";
+            this.checkBoxShowPass.Size = new System.Drawing.Size(158, 28);
+            this.checkBoxShowPass.TabIndex = 48;
+            this.checkBoxShowPass.Text = "Show Password";
+            this.checkBoxShowPass.UseVisualStyleBackColor = true;
+            this.checkBoxShowPass.CheckedChanged += new System.EventHandler(this.checkBoxShowPass_CheckedChanged);
+            // 
             // FormRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(862, 834);
+            this.Controls.Add(this.checkBoxShowPass);
             this.Controls.Add(this.radioButtonWanita);
             this.Controls.Add(this.radioButtonLaki);
             this.Controls.Add(this.dateTimePickerTanggalLahir);
@@ -297,6 +314,7 @@ namespace Celikoor_Kelompok6
             this.Name = "FormRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
+            this.Load += new System.EventHandler(this.FormRegister_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,5 +343,6 @@ namespace Celikoor_Kelompok6
         private System.Windows.Forms.DateTimePicker dateTimePickerTanggalLahir;
         private System.Windows.Forms.RadioButton radioButtonLaki;
         private System.Windows.Forms.RadioButton radioButtonWanita;
+        private System.Windows.Forms.CheckBox checkBoxShowPass;
     }
 }

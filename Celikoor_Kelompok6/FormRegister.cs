@@ -24,5 +24,29 @@ namespace Celikoor_Kelompok6
             this.Hide();
             formLogin.ShowDialog();
         }
+
+        private void FormRegister_Load(object sender, EventArgs e)
+        {
+            if (checkBoxShowPass.Checked)
+            {
+                textBoxPassword.PasswordChar = '\0';
+            }
+            else
+            {
+                textBoxPassword.PasswordChar = '*';
+            }
+        }
+
+        private void checkBoxShowPass_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxShowPass.Checked)
+            {
+                textBoxPassword.PasswordChar = '\0';
+            }
+            else
+            {
+                textBoxPassword.PasswordChar = '*';
+            }
+        }
     }
 }

@@ -20,7 +20,7 @@ namespace Celikoor_Kelompok6
         private void timerLoading_Tick(object sender, EventArgs e)
         {
             timerLoading.Enabled = true;
-            progressBarLoading.Increment(8);
+            progressBarLoading.Increment(4);
             if (progressBarLoading.Value == 100)
             {
                 timerLoading.Enabled = false;

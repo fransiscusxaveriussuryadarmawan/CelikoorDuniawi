@@ -38,6 +38,7 @@ namespace Celikoor_Kelompok6
             this.textBoxUname = new System.Windows.Forms.TextBox();
             this.labelUname = new System.Windows.Forms.Label();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.checkBoxShowPass = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +58,7 @@ namespace Celikoor_Kelompok6
             this.linkRegister.Font = new System.Drawing.Font("Trebuchet MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkRegister.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.linkRegister.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.linkRegister.Location = new System.Drawing.Point(541, 329);
+            this.linkRegister.Location = new System.Drawing.Point(183, 317);
             this.linkRegister.Name = "linkRegister";
             this.linkRegister.Size = new System.Drawing.Size(177, 24);
             this.linkRegister.TabIndex = 26;
@@ -144,12 +145,28 @@ namespace Celikoor_Kelompok6
             this.pictureBoxLogo.TabIndex = 27;
             this.pictureBoxLogo.TabStop = false;
             // 
+            // checkBoxShowPass
+            // 
+            this.checkBoxShowPass.AutoSize = true;
+            this.checkBoxShowPass.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.checkBoxShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBoxShowPass.Font = new System.Drawing.Font("Trebuchet MS", 10.8F);
+            this.checkBoxShowPass.ForeColor = System.Drawing.Color.DimGray;
+            this.checkBoxShowPass.Location = new System.Drawing.Point(553, 317);
+            this.checkBoxShowPass.Name = "checkBoxShowPass";
+            this.checkBoxShowPass.Size = new System.Drawing.Size(158, 28);
+            this.checkBoxShowPass.TabIndex = 29;
+            this.checkBoxShowPass.Text = "Show Password";
+            this.checkBoxShowPass.UseVisualStyleBackColor = true;
+            this.checkBoxShowPass.CheckedChanged += new System.EventHandler(this.checkBoxShowPass_CheckedChanged);
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(789, 443);
+            this.Controls.Add(this.checkBoxShowPass);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.linkRegister);
@@ -163,6 +180,7 @@ namespace Celikoor_Kelompok6
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -180,5 +198,6 @@ namespace Celikoor_Kelompok6
         private System.Windows.Forms.Label labelPass;
         private System.Windows.Forms.TextBox textBoxUname;
         private System.Windows.Forms.Label labelUname;
+        private System.Windows.Forms.CheckBox checkBoxShowPass;
     }
 }
