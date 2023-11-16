@@ -26,5 +26,10 @@ namespace Celikoor_Kelompok6
             this.Visible = false;
             frmLogin.ShowDialog();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
