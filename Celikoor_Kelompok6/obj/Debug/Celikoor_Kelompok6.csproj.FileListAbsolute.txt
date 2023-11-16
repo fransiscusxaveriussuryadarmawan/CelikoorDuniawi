@@ -10,3 +10,4 @@ D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Data
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.CoreCompileInputs.cache
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.exe
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.pdb
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormSplashScreenUtama.resources
