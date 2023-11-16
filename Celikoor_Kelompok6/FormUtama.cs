@@ -20,6 +20,7 @@ namespace Celikoor_Kelompok6
         private void FormUtama_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
+            this.IsMdiContainer = true;
 
             FormLogin frmLogin = new FormLogin();
             frmLogin.Owner = this;

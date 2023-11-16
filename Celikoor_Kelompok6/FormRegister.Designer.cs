@@ -149,6 +149,7 @@ namespace Celikoor_Kelompok6
             this.Controls.Add(this.labelUname);
             this.Controls.Add(this.labelJudul);
             this.Name = "FormRegister";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.ResumeLayout(false);
             this.PerformLayout();

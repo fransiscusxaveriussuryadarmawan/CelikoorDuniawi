@@ -158,6 +158,7 @@ namespace Celikoor_Kelompok6
             this.Controls.Add(this.textBoxUname);
             this.Controls.Add(this.labelUname);
             this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);

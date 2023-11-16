@@ -35,8 +35,6 @@ namespace Celikoor_Kelompok6
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.masterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cinemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.labelJudul = new System.Windows.Forms.Label();
             this.studioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jenisStudioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.genreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,7 +60,6 @@ namespace Celikoor_Kelompok6
             this.pemesananTiketToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.penjualanTiketToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -124,28 +121,6 @@ namespace Celikoor_Kelompok6
             this.cinemaToolStripMenuItem.Name = "cinemaToolStripMenuItem";
             this.cinemaToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.cinemaToolStripMenuItem.Text = "Cinema";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Celikoor_Kelompok6.Properties.Resources.logo;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(215, 194);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(400, 400);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // labelJudul
-            // 
-            this.labelJudul.BackColor = System.Drawing.Color.Beige;
-            this.labelJudul.Font = new System.Drawing.Font("Trebuchet MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelJudul.Location = new System.Drawing.Point(0, 66);
-            this.labelJudul.Name = "labelJudul";
-            this.labelJudul.Size = new System.Drawing.Size(801, 116);
-            this.labelJudul.TabIndex = 7;
-            this.labelJudul.Text = "Celikoor 21";
-            this.labelJudul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // studioToolStripMenuItem
             // 
@@ -319,14 +294,12 @@ namespace Celikoor_Kelompok6
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(846, 605);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.labelJudul);
             this.Name = "FormUtama";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Celikoor";
             this.Load += new System.EventHandler(this.FormUtama_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -340,8 +313,6 @@ namespace Celikoor_Kelompok6
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem masterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cinemaToolStripMenuItem;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label labelJudul;
         private System.Windows.Forms.ToolStripMenuItem studioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem jenisStudioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem genreToolStripMenuItem;
