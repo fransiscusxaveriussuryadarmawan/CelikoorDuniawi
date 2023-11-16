@@ -11,3 +11,15 @@ E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celi
 E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.csproj.CoreCompileInputs.cache
 E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.exe
 E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.pdb
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\bin\Debug\Celikoor_Kelompok6_UI.exe.config
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\bin\Debug\Celikoor_Kelompok6_UI.exe
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\bin\Debug\Celikoor_Kelompok6_UI.pdb
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.csproj.AssemblyReference.cache
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.FormLogin.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.FormMenu.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.FormRegister.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.Properties.Resources.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.csproj.GenerateResource.cache
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.csproj.CoreCompileInputs.cache
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.exe
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Fix Project\Celikoor_Kelompok6_UI\obj\Debug\Celikoor_Kelompok6_UI.pdb
