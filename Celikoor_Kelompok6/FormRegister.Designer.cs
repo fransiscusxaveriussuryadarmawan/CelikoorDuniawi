@@ -48,6 +48,7 @@ namespace Celikoor_Kelompok6
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(316, 39);
             this.textBox1.TabIndex = 26;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -58,6 +59,7 @@ namespace Celikoor_Kelompok6
             this.label1.Size = new System.Drawing.Size(84, 36);
             this.label1.TabIndex = 25;
             this.label1.Text = "Email";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonKembali
             // 
@@ -70,6 +72,7 @@ namespace Celikoor_Kelompok6
             this.buttonKembali.TabIndex = 24;
             this.buttonKembali.Text = "Kembali";
             this.buttonKembali.UseVisualStyleBackColor = false;
+            this.buttonKembali.Click += new System.EventHandler(this.buttonKembali_Click);
             // 
             // buttonDaftar
             // 
@@ -82,6 +85,7 @@ namespace Celikoor_Kelompok6
             this.buttonDaftar.TabIndex = 23;
             this.buttonDaftar.Text = "Daftar";
             this.buttonDaftar.UseVisualStyleBackColor = false;
+            this.buttonDaftar.Click += new System.EventHandler(this.buttonDaftar_Click);
             // 
             // textBoxPassword
             // 
@@ -91,6 +95,7 @@ namespace Celikoor_Kelompok6
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(316, 39);
             this.textBoxPassword.TabIndex = 22;
+            this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
             // 
             // labelPass
             // 
@@ -101,6 +106,7 @@ namespace Celikoor_Kelompok6
             this.labelPass.Size = new System.Drawing.Size(130, 36);
             this.labelPass.TabIndex = 21;
             this.labelPass.Text = "Password";
+            this.labelPass.Click += new System.EventHandler(this.labelPass_Click);
             // 
             // textBoxUname
             // 
@@ -110,6 +116,7 @@ namespace Celikoor_Kelompok6
             this.textBoxUname.Name = "textBoxUname";
             this.textBoxUname.Size = new System.Drawing.Size(316, 39);
             this.textBoxUname.TabIndex = 20;
+            this.textBoxUname.TextChanged += new System.EventHandler(this.textBoxUname_TextChanged);
             // 
             // labelUname
             // 
@@ -120,6 +127,7 @@ namespace Celikoor_Kelompok6
             this.labelUname.Size = new System.Drawing.Size(146, 36);
             this.labelUname.TabIndex = 19;
             this.labelUname.Text = "Username ";
+            this.labelUname.Click += new System.EventHandler(this.labelUname_Click);
             // 
             // labelJudul
             // 
@@ -131,6 +139,7 @@ namespace Celikoor_Kelompok6
             this.labelJudul.TabIndex = 18;
             this.labelJudul.Text = "Celikoor 21";
             this.labelJudul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelJudul.Click += new System.EventHandler(this.labelJudul_Click);
             // 
             // FormRegister
             // 
