@@ -29,48 +29,53 @@ namespace Celikoor_Kelompok6
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegister));
+            this.textBoxNama = new System.Windows.Forms.TextBox();
+            this.labelEmail = new System.Windows.Forms.Label();
             this.buttonKembali = new System.Windows.Forms.Button();
             this.buttonDaftar = new System.Windows.Forms.Button();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.labelPass = new System.Windows.Forms.Label();
-            this.textBoxUname = new System.Windows.Forms.TextBox();
-            this.labelUname = new System.Windows.Forms.Label();
+            this.textBoxNomorHP = new System.Windows.Forms.TextBox();
+            this.labelPassword = new System.Windows.Forms.Label();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.labelUsername = new System.Windows.Forms.Label();
             this.labelJudul = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.labelNama = new System.Windows.Forms.Label();
+            this.labelNomorHP = new System.Windows.Forms.Label();
+            this.labelGender = new System.Windows.Forms.Label();
+            this.labelTanggalLahir = new System.Windows.Forms.Label();
+            this.labelSaldo = new System.Windows.Forms.Label();
+            this.textBoxSaldo = new System.Windows.Forms.TextBox();
+            this.textBoxUsername = new System.Windows.Forms.TextBox();
+            this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.buttonKosongi = new System.Windows.Forms.Button();
             this.dateTimePickerTanggalLahir = new System.Windows.Forms.DateTimePicker();
             this.radioButtonLaki = new System.Windows.Forms.RadioButton();
             this.radioButtonWanita = new System.Windows.Forms.RadioButton();
             this.checkBoxShowPass = new System.Windows.Forms.CheckBox();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.pictureBoxGaris = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGaris)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxNama
             // 
-            this.textBox1.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(294, 164);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(522, 39);
-            this.textBox1.TabIndex = 35;
+            this.textBoxNama.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNama.Location = new System.Drawing.Point(294, 164);
+            this.textBoxNama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxNama.Name = "textBoxNama";
+            this.textBoxNama.Size = new System.Drawing.Size(522, 39);
+            this.textBoxNama.TabIndex = 35;
             // 
-            // label1
+            // labelEmail
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 234);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 36);
-            this.label1.TabIndex = 34;
-            this.label1.Text = "Email";
+            this.labelEmail.AutoSize = true;
+            this.labelEmail.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEmail.Location = new System.Drawing.Point(53, 234);
+            this.labelEmail.Name = "labelEmail";
+            this.labelEmail.Size = new System.Drawing.Size(84, 36);
+            this.labelEmail.TabIndex = 34;
+            this.labelEmail.Text = "Email";
             // 
             // buttonKembali
             // 
@@ -97,143 +102,143 @@ namespace Celikoor_Kelompok6
             this.buttonDaftar.Text = "Daftar";
             this.buttonDaftar.UseVisualStyleBackColor = false;
             // 
-            // textBoxPassword
+            // textBoxNomorHP
             // 
-            this.textBoxPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(294, 302);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(522, 39);
-            this.textBoxPassword.TabIndex = 31;
+            this.textBoxNomorHP.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNomorHP.Location = new System.Drawing.Point(294, 302);
+            this.textBoxNomorHP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxNomorHP.Name = "textBoxNomorHP";
+            this.textBoxNomorHP.Size = new System.Drawing.Size(522, 39);
+            this.textBoxNomorHP.TabIndex = 31;
             // 
-            // labelPass
+            // labelPassword
             // 
-            this.labelPass.AutoSize = true;
-            this.labelPass.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPass.Location = new System.Drawing.Point(51, 664);
-            this.labelPass.Name = "labelPass";
-            this.labelPass.Size = new System.Drawing.Size(130, 36);
-            this.labelPass.TabIndex = 30;
-            this.labelPass.Text = "Password";
+            this.labelPassword.AutoSize = true;
+            this.labelPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPassword.Location = new System.Drawing.Point(51, 664);
+            this.labelPassword.Name = "labelPassword";
+            this.labelPassword.Size = new System.Drawing.Size(130, 36);
+            this.labelPassword.TabIndex = 30;
+            this.labelPassword.Text = "Password";
             // 
-            // textBoxUname
+            // textBoxEmail
             // 
-            this.textBoxUname.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUname.Location = new System.Drawing.Point(294, 231);
-            this.textBoxUname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxUname.Name = "textBoxUname";
-            this.textBoxUname.Size = new System.Drawing.Size(522, 39);
-            this.textBoxUname.TabIndex = 29;
+            this.textBoxEmail.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmail.Location = new System.Drawing.Point(294, 231);
+            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(522, 39);
+            this.textBoxEmail.TabIndex = 29;
             // 
-            // labelUname
+            // labelUsername
             // 
-            this.labelUname.AutoSize = true;
-            this.labelUname.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUname.Location = new System.Drawing.Point(51, 592);
-            this.labelUname.Name = "labelUname";
-            this.labelUname.Size = new System.Drawing.Size(146, 36);
-            this.labelUname.TabIndex = 28;
-            this.labelUname.Text = "Username ";
+            this.labelUsername.AutoSize = true;
+            this.labelUsername.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUsername.Location = new System.Drawing.Point(51, 592);
+            this.labelUsername.Name = "labelUsername";
+            this.labelUsername.Size = new System.Drawing.Size(146, 36);
+            this.labelUsername.TabIndex = 28;
+            this.labelUsername.Text = "Username ";
             // 
             // labelJudul
             // 
             this.labelJudul.BackColor = System.Drawing.Color.Tan;
             this.labelJudul.Font = new System.Drawing.Font("Trebuchet MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelJudul.Location = new System.Drawing.Point(-1, -1);
+            this.labelJudul.Location = new System.Drawing.Point(66, -1);
             this.labelJudul.Name = "labelJudul";
             this.labelJudul.Size = new System.Drawing.Size(864, 116);
             this.labelJudul.TabIndex = 27;
             this.labelJudul.Text = "Celikoor 21";
             this.labelJudul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // labelNama
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(51, 164);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 36);
-            this.label2.TabIndex = 36;
-            this.label2.Text = "Nama";
+            this.labelNama.AutoSize = true;
+            this.labelNama.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNama.Location = new System.Drawing.Point(51, 164);
+            this.labelNama.Name = "labelNama";
+            this.labelNama.Size = new System.Drawing.Size(86, 36);
+            this.labelNama.TabIndex = 36;
+            this.labelNama.Text = "Nama";
             // 
-            // label3
+            // labelNomorHP
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(51, 302);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 36);
-            this.label3.TabIndex = 37;
-            this.label3.Text = "Nomor HP";
+            this.labelNomorHP.AutoSize = true;
+            this.labelNomorHP.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNomorHP.Location = new System.Drawing.Point(51, 302);
+            this.labelNomorHP.Name = "labelNomorHP";
+            this.labelNomorHP.Size = new System.Drawing.Size(139, 36);
+            this.labelNomorHP.TabIndex = 37;
+            this.labelNomorHP.Text = "Nomor HP";
             // 
-            // label4
+            // labelGender
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(51, 370);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 36);
-            this.label4.TabIndex = 38;
-            this.label4.Text = "Gender";
+            this.labelGender.AutoSize = true;
+            this.labelGender.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGender.Location = new System.Drawing.Point(51, 370);
+            this.labelGender.Name = "labelGender";
+            this.labelGender.Size = new System.Drawing.Size(106, 36);
+            this.labelGender.TabIndex = 38;
+            this.labelGender.Text = "Gender";
             // 
-            // label5
+            // labelTanggalLahir
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(53, 442);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(180, 36);
-            this.label5.TabIndex = 39;
-            this.label5.Text = "Tanggal Lahir";
+            this.labelTanggalLahir.AutoSize = true;
+            this.labelTanggalLahir.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTanggalLahir.Location = new System.Drawing.Point(53, 442);
+            this.labelTanggalLahir.Name = "labelTanggalLahir";
+            this.labelTanggalLahir.Size = new System.Drawing.Size(180, 36);
+            this.labelTanggalLahir.TabIndex = 39;
+            this.labelTanggalLahir.Text = "Tanggal Lahir";
             // 
-            // label6
+            // labelSaldo
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(55, 515);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 36);
-            this.label6.TabIndex = 40;
-            this.label6.Text = "Saldo";
+            this.labelSaldo.AutoSize = true;
+            this.labelSaldo.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSaldo.Location = new System.Drawing.Point(55, 515);
+            this.labelSaldo.Name = "labelSaldo";
+            this.labelSaldo.Size = new System.Drawing.Size(82, 36);
+            this.labelSaldo.TabIndex = 40;
+            this.labelSaldo.Text = "Saldo";
             // 
-            // textBox2
+            // textBoxSaldo
             // 
-            this.textBox2.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(294, 512);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(522, 39);
-            this.textBox2.TabIndex = 41;
+            this.textBoxSaldo.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSaldo.Location = new System.Drawing.Point(294, 512);
+            this.textBoxSaldo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxSaldo.Name = "textBoxSaldo";
+            this.textBoxSaldo.Size = new System.Drawing.Size(522, 39);
+            this.textBoxSaldo.TabIndex = 41;
             // 
-            // textBox3
+            // textBoxUsername
             // 
-            this.textBox3.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(294, 589);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(522, 39);
-            this.textBox3.TabIndex = 42;
+            this.textBoxUsername.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxUsername.Location = new System.Drawing.Point(294, 589);
+            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxUsername.Name = "textBoxUsername";
+            this.textBoxUsername.Size = new System.Drawing.Size(522, 39);
+            this.textBoxUsername.TabIndex = 42;
             // 
-            // textBox4
+            // textBoxPassword
             // 
-            this.textBox4.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(294, 664);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(522, 39);
-            this.textBox4.TabIndex = 43;
+            this.textBoxPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPassword.Location = new System.Drawing.Point(294, 664);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.Size = new System.Drawing.Size(522, 39);
+            this.textBoxPassword.TabIndex = 43;
             // 
-            // button1
+            // buttonKosongi
             // 
-            this.button1.BackColor = System.Drawing.Color.Tan;
-            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(342, 770);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 48);
-            this.button1.TabIndex = 44;
-            this.button1.Text = "Kosongi";
-            this.button1.UseVisualStyleBackColor = false;
+            this.buttonKosongi.BackColor = System.Drawing.Color.Tan;
+            this.buttonKosongi.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonKosongi.Location = new System.Drawing.Point(342, 770);
+            this.buttonKosongi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonKosongi.Name = "buttonKosongi";
+            this.buttonKosongi.Size = new System.Drawing.Size(163, 48);
+            this.buttonKosongi.TabIndex = 44;
+            this.buttonKosongi.Text = "Kosongi";
+            this.buttonKosongi.UseVisualStyleBackColor = false;
             // 
             // dateTimePickerTanggalLahir
             // 
@@ -282,39 +287,65 @@ namespace Celikoor_Kelompok6
             this.checkBoxShowPass.UseVisualStyleBackColor = true;
             this.checkBoxShowPass.CheckedChanged += new System.EventHandler(this.checkBoxShowPass_CheckedChanged);
             // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.BackColor = System.Drawing.Color.Tan;
+            this.pictureBoxLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.BackgroundImage")));
+            this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxLogo.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(37, -11);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(120, 126);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLogo.TabIndex = 49;
+            this.pictureBoxLogo.TabStop = false;
+            // 
+            // pictureBoxGaris
+            // 
+            this.pictureBoxGaris.BackColor = System.Drawing.Color.Tan;
+            this.pictureBoxGaris.Location = new System.Drawing.Point(-5, -34);
+            this.pictureBoxGaris.Name = "pictureBoxGaris";
+            this.pictureBoxGaris.Size = new System.Drawing.Size(65, 149);
+            this.pictureBoxGaris.TabIndex = 86;
+            this.pictureBoxGaris.TabStop = false;
+            // 
             // FormRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(862, 834);
+            this.Controls.Add(this.pictureBoxGaris);
+            this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.checkBoxShowPass);
             this.Controls.Add(this.radioButtonWanita);
             this.Controls.Add(this.radioButtonLaki);
             this.Controls.Add(this.dateTimePickerTanggalLahir);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.buttonKosongi);
+            this.Controls.Add(this.textBoxPassword);
+            this.Controls.Add(this.textBoxUsername);
+            this.Controls.Add(this.textBoxSaldo);
+            this.Controls.Add(this.labelSaldo);
+            this.Controls.Add(this.labelTanggalLahir);
+            this.Controls.Add(this.labelGender);
+            this.Controls.Add(this.labelNomorHP);
+            this.Controls.Add(this.labelNama);
+            this.Controls.Add(this.textBoxNama);
+            this.Controls.Add(this.labelEmail);
             this.Controls.Add(this.buttonKembali);
             this.Controls.Add(this.buttonDaftar);
-            this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.labelPass);
-            this.Controls.Add(this.textBoxUname);
-            this.Controls.Add(this.labelUname);
+            this.Controls.Add(this.textBoxNomorHP);
+            this.Controls.Add(this.labelPassword);
+            this.Controls.Add(this.textBoxEmail);
+            this.Controls.Add(this.labelUsername);
             this.Controls.Add(this.labelJudul);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.Load += new System.EventHandler(this.FormRegister_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGaris)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -322,27 +353,29 @@ namespace Celikoor_Kelompok6
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBoxNama;
+        private System.Windows.Forms.Label labelEmail;
         private System.Windows.Forms.Button buttonKembali;
         private System.Windows.Forms.Button buttonDaftar;
-        private System.Windows.Forms.TextBox textBoxPassword;
-        private System.Windows.Forms.Label labelPass;
-        private System.Windows.Forms.TextBox textBoxUname;
-        private System.Windows.Forms.Label labelUname;
+        private System.Windows.Forms.TextBox textBoxNomorHP;
+        private System.Windows.Forms.Label labelPassword;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.Label labelJudul;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label labelNama;
+        private System.Windows.Forms.Label labelNomorHP;
+        private System.Windows.Forms.Label labelGender;
+        private System.Windows.Forms.Label labelTanggalLahir;
+        private System.Windows.Forms.Label labelSaldo;
+        private System.Windows.Forms.TextBox textBoxSaldo;
+        private System.Windows.Forms.TextBox textBoxUsername;
+        private System.Windows.Forms.TextBox textBoxPassword;
+        private System.Windows.Forms.Button buttonKosongi;
         private System.Windows.Forms.DateTimePicker dateTimePickerTanggalLahir;
         private System.Windows.Forms.RadioButton radioButtonLaki;
         private System.Windows.Forms.RadioButton radioButtonWanita;
         private System.Windows.Forms.CheckBox checkBoxShowPass;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
+        private System.Windows.Forms.PictureBox pictureBoxGaris;
     }
 }

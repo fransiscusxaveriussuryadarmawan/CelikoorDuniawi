@@ -29,28 +29,28 @@ namespace Celikoor_Kelompok6
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelJudul = new System.Windows.Forms.Label();
             this.linkRegister = new System.Windows.Forms.LinkLabel();
             this.buttonKembali = new System.Windows.Forms.Button();
             this.buttonMasuk = new System.Windows.Forms.Button();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
-            this.labelPass = new System.Windows.Forms.Label();
-            this.textBoxUname = new System.Windows.Forms.TextBox();
-            this.labelUname = new System.Windows.Forms.Label();
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.labelPassword = new System.Windows.Forms.Label();
+            this.textBoxUsername = new System.Windows.Forms.TextBox();
+            this.labelUsername = new System.Windows.Forms.Label();
             this.checkBoxShowPass = new System.Windows.Forms.CheckBox();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelJudul
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(211, 60);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(493, 61);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "Celikoor 21 Cineplex";
+            this.labelJudul.AutoSize = true;
+            this.labelJudul.Font = new System.Drawing.Font("Trebuchet MS", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelJudul.Location = new System.Drawing.Point(237, 58);
+            this.labelJudul.Name = "labelJudul";
+            this.labelJudul.Size = new System.Drawing.Size(493, 61);
+            this.labelJudul.TabIndex = 28;
+            this.labelJudul.Text = "Celikoor 21 Cineplex";
             // 
             // linkRegister
             // 
@@ -71,7 +71,7 @@ namespace Celikoor_Kelompok6
             this.buttonKembali.AutoSize = true;
             this.buttonKembali.BackColor = System.Drawing.Color.Tan;
             this.buttonKembali.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKembali.Location = new System.Drawing.Point(630, 383);
+            this.buttonKembali.Location = new System.Drawing.Point(623, 382);
             this.buttonKembali.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonKembali.Name = "buttonKembali";
             this.buttonKembali.Size = new System.Drawing.Size(135, 48);
@@ -103,47 +103,34 @@ namespace Celikoor_Kelompok6
             this.textBoxPassword.Size = new System.Drawing.Size(524, 39);
             this.textBoxPassword.TabIndex = 23;
             // 
-            // labelPass
+            // labelPassword
             // 
-            this.labelPass.AutoSize = true;
-            this.labelPass.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPass.Location = new System.Drawing.Point(32, 257);
-            this.labelPass.Name = "labelPass";
-            this.labelPass.Size = new System.Drawing.Size(130, 36);
-            this.labelPass.TabIndex = 22;
-            this.labelPass.Text = "Password";
+            this.labelPassword.AutoSize = true;
+            this.labelPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPassword.Location = new System.Drawing.Point(32, 257);
+            this.labelPassword.Name = "labelPassword";
+            this.labelPassword.Size = new System.Drawing.Size(130, 36);
+            this.labelPassword.TabIndex = 22;
+            this.labelPassword.Text = "Password";
             // 
-            // textBoxUname
+            // textBoxUsername
             // 
-            this.textBoxUname.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUname.Location = new System.Drawing.Point(187, 190);
-            this.textBoxUname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxUname.Name = "textBoxUname";
-            this.textBoxUname.Size = new System.Drawing.Size(524, 39);
-            this.textBoxUname.TabIndex = 21;
+            this.textBoxUsername.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxUsername.Location = new System.Drawing.Point(187, 190);
+            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxUsername.Name = "textBoxUsername";
+            this.textBoxUsername.Size = new System.Drawing.Size(524, 39);
+            this.textBoxUsername.TabIndex = 21;
             // 
-            // labelUname
+            // labelUsername
             // 
-            this.labelUname.AutoSize = true;
-            this.labelUname.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUname.Location = new System.Drawing.Point(24, 193);
-            this.labelUname.Name = "labelUname";
-            this.labelUname.Size = new System.Drawing.Size(138, 36);
-            this.labelUname.TabIndex = 20;
-            this.labelUname.Text = "Username";
-            // 
-            // pictureBoxLogo
-            // 
-            this.pictureBoxLogo.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxLogo.BackgroundImage = global::Celikoor_Kelompok6.Properties.Resources.logo;
-            this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxLogo.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(30, 12);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(175, 150);
-            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLogo.TabIndex = 27;
-            this.pictureBoxLogo.TabStop = false;
+            this.labelUsername.AutoSize = true;
+            this.labelUsername.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUsername.Location = new System.Drawing.Point(24, 193);
+            this.labelUsername.Name = "labelUsername";
+            this.labelUsername.Size = new System.Drawing.Size(138, 36);
+            this.labelUsername.TabIndex = 20;
+            this.labelUsername.Text = "Username";
             // 
             // checkBoxShowPass
             // 
@@ -160,6 +147,19 @@ namespace Celikoor_Kelompok6
             this.checkBoxShowPass.UseVisualStyleBackColor = true;
             this.checkBoxShowPass.CheckedChanged += new System.EventHandler(this.checkBoxShowPass_CheckedChanged);
             // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxLogo.BackgroundImage = global::Celikoor_Kelompok6.Properties.Resources.logo;
+            this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxLogo.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(30, 12);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(175, 150);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLogo.TabIndex = 27;
+            this.pictureBoxLogo.TabStop = false;
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -167,15 +167,15 @@ namespace Celikoor_Kelompok6
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(789, 443);
             this.Controls.Add(this.checkBoxShowPass);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelJudul);
             this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.linkRegister);
             this.Controls.Add(this.buttonKembali);
             this.Controls.Add(this.buttonMasuk);
             this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.labelPass);
-            this.Controls.Add(this.textBoxUname);
-            this.Controls.Add(this.labelUname);
+            this.Controls.Add(this.labelPassword);
+            this.Controls.Add(this.textBoxUsername);
+            this.Controls.Add(this.labelUsername);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -189,15 +189,15 @@ namespace Celikoor_Kelompok6
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelJudul;
         private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.LinkLabel linkRegister;
         private System.Windows.Forms.Button buttonKembali;
         private System.Windows.Forms.Button buttonMasuk;
         private System.Windows.Forms.TextBox textBoxPassword;
-        private System.Windows.Forms.Label labelPass;
-        private System.Windows.Forms.TextBox textBoxUname;
-        private System.Windows.Forms.Label labelUname;
+        private System.Windows.Forms.Label labelPassword;
+        private System.Windows.Forms.TextBox textBoxUsername;
+        private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.CheckBox checkBoxShowPass;
     }
 }

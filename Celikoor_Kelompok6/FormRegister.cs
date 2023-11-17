@@ -29,11 +29,11 @@ namespace Celikoor_Kelompok6
         {
             if (checkBoxShowPass.Checked)
             {
-                textBoxPassword.PasswordChar = '\0';
+                textBoxNomorHP.PasswordChar = '\0';
             }
             else
             {
-                textBoxPassword.PasswordChar = '*';
+                textBoxNomorHP.PasswordChar = '*';
             }
         }
 
@@ -41,11 +41,11 @@ namespace Celikoor_Kelompok6
         {
             if (checkBoxShowPass.Checked)
             {
-                textBoxPassword.PasswordChar = '\0';
+                textBoxNomorHP.PasswordChar = '\0';
             }
             else
             {
-                textBoxPassword.PasswordChar = '*';
+                textBoxNomorHP.PasswordChar = '*';
             }
         }
     }

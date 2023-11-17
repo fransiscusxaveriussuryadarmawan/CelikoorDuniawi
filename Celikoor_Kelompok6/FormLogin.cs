@@ -24,7 +24,7 @@ namespace Celikoor_Kelompok6
 
         private void buttonMasuk_Click(object sender, EventArgs e)
         {
-            string user = textBoxUname.Text;
+            string user = textBoxUsername.Text;
             string pass = textBoxPassword.Text;
         }
 
