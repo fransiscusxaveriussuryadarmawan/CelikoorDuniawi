@@ -15,13 +15,16 @@ namespace Celikoor_Kelompok6
         public FormSplashScreenUtama()
         {
             InitializeComponent();
+            circularProgressBarLoading.Value = 0;
         }
 
         private void timerLoading_Tick(object sender, EventArgs e)
         {
             timerLoading.Enabled = true;
-            progressBarLoading.Increment(4);
-            if (progressBarLoading.Value == 100)
+            circularProgressBarLoading.Value += 2;
+            circularProgressBarLoading.Text = circularProgressBarLoading.Value.ToString() + "%";
+
+            if (circularProgressBarLoading.Value == 100)
             {
                 timerLoading.Enabled = false;
                 FormUtama formUtama = new FormUtama();
