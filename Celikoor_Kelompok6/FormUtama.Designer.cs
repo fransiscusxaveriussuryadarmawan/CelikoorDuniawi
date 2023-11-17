@@ -73,9 +73,11 @@ namespace Celikoor_Kelompok6
             this.laporanToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(846, 34);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(634, 30);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // akunToolStripMenuItem
             // 
@@ -85,25 +87,25 @@ namespace Celikoor_Kelompok6
             this.exitToolStripMenuItem});
             this.akunToolStripMenuItem.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.akunToolStripMenuItem.Name = "akunToolStripMenuItem";
-            this.akunToolStripMenuItem.Size = new System.Drawing.Size(74, 30);
+            this.akunToolStripMenuItem.Size = new System.Drawing.Size(60, 26);
             this.akunToolStripMenuItem.Text = "Profil";
             // 
             // changePasswordToolStripMenuItem
             // 
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.changePasswordToolStripMenuItem.Text = "Change Password";
             // 
             // logoutToolStripMenuItem
             // 
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.logoutToolStripMenuItem.Text = "Logout";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -120,55 +122,55 @@ namespace Celikoor_Kelompok6
             this.konsumenToolStripMenuItem1});
             this.masterToolStripMenuItem.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.masterToolStripMenuItem.Name = "masterToolStripMenuItem";
-            this.masterToolStripMenuItem.Size = new System.Drawing.Size(87, 30);
+            this.masterToolStripMenuItem.Size = new System.Drawing.Size(68, 26);
             this.masterToolStripMenuItem.Text = "Master";
             // 
             // cinemaToolStripMenuItem
             // 
             this.cinemaToolStripMenuItem.Name = "cinemaToolStripMenuItem";
-            this.cinemaToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
+            this.cinemaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.cinemaToolStripMenuItem.Text = "Cinema";
             // 
             // studioToolStripMenuItem
             // 
             this.studioToolStripMenuItem.Name = "studioToolStripMenuItem";
-            this.studioToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
+            this.studioToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.studioToolStripMenuItem.Text = "Studio";
             // 
             // jenisStudioToolStripMenuItem
             // 
             this.jenisStudioToolStripMenuItem.Name = "jenisStudioToolStripMenuItem";
-            this.jenisStudioToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
+            this.jenisStudioToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.jenisStudioToolStripMenuItem.Text = "Jenis Studio";
             // 
             // genreToolStripMenuItem
             // 
             this.genreToolStripMenuItem.Name = "genreToolStripMenuItem";
-            this.genreToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
+            this.genreToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.genreToolStripMenuItem.Text = "Genre";
             // 
             // kelompokToolStripMenuItem
             // 
             this.kelompokToolStripMenuItem.Name = "kelompokToolStripMenuItem";
-            this.kelompokToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
+            this.kelompokToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.kelompokToolStripMenuItem.Text = "Kelompok";
             // 
             // aktorsToolStripMenuItem
             // 
             this.aktorsToolStripMenuItem.Name = "aktorsToolStripMenuItem";
-            this.aktorsToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
+            this.aktorsToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.aktorsToolStripMenuItem.Text = "Aktors";
             // 
             // pegawaiToolStripMenuItem1
             // 
             this.pegawaiToolStripMenuItem1.Name = "pegawaiToolStripMenuItem1";
-            this.pegawaiToolStripMenuItem1.Size = new System.Drawing.Size(207, 30);
+            this.pegawaiToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
             this.pegawaiToolStripMenuItem1.Text = "Pegawai";
             // 
             // konsumenToolStripMenuItem1
             // 
             this.konsumenToolStripMenuItem1.Name = "konsumenToolStripMenuItem1";
-            this.konsumenToolStripMenuItem1.Size = new System.Drawing.Size(207, 30);
+            this.konsumenToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
             this.konsumenToolStripMenuItem1.Text = "Konsumen";
             // 
             // transaksiToolStripMenuItem
@@ -178,19 +180,19 @@ namespace Celikoor_Kelompok6
             this.penjualanTiketToolStripMenuItem});
             this.transaksiToolStripMenuItem.Font = new System.Drawing.Font("Trebuchet MS", 12F);
             this.transaksiToolStripMenuItem.Name = "transaksiToolStripMenuItem";
-            this.transaksiToolStripMenuItem.Size = new System.Drawing.Size(109, 30);
+            this.transaksiToolStripMenuItem.Size = new System.Drawing.Size(84, 26);
             this.transaksiToolStripMenuItem.Text = "Transaksi";
             // 
             // pemesananTiketToolStripMenuItem
             // 
             this.pemesananTiketToolStripMenuItem.Name = "pemesananTiketToolStripMenuItem";
-            this.pemesananTiketToolStripMenuItem.Size = new System.Drawing.Size(251, 30);
+            this.pemesananTiketToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.pemesananTiketToolStripMenuItem.Text = "Pemesanan Tiket";
             // 
             // penjualanTiketToolStripMenuItem
             // 
             this.penjualanTiketToolStripMenuItem.Name = "penjualanTiketToolStripMenuItem";
-            this.penjualanTiketToolStripMenuItem.Size = new System.Drawing.Size(251, 30);
+            this.penjualanTiketToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.penjualanTiketToolStripMenuItem.Text = "Penjualan Tiket";
             // 
             // laporanToolStripMenuItem
@@ -200,7 +202,7 @@ namespace Celikoor_Kelompok6
             this.tansaksiToolStripMenuItem});
             this.laporanToolStripMenuItem.Font = new System.Drawing.Font("Trebuchet MS", 12F);
             this.laporanToolStripMenuItem.Name = "laporanToolStripMenuItem";
-            this.laporanToolStripMenuItem.Size = new System.Drawing.Size(99, 30);
+            this.laporanToolStripMenuItem.Size = new System.Drawing.Size(78, 26);
             this.laporanToolStripMenuItem.Text = "Laporan";
             // 
             // masterToolStripMenuItem1
@@ -215,55 +217,55 @@ namespace Celikoor_Kelompok6
             this.pegawaiToolStripMenuItem,
             this.konsumenToolStripMenuItem});
             this.masterToolStripMenuItem1.Name = "masterToolStripMenuItem1";
-            this.masterToolStripMenuItem1.Size = new System.Drawing.Size(173, 30);
+            this.masterToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
             this.masterToolStripMenuItem1.Text = "Master";
             // 
             // cinemaToolStripMenuItem1
             // 
             this.cinemaToolStripMenuItem1.Name = "cinemaToolStripMenuItem1";
-            this.cinemaToolStripMenuItem1.Size = new System.Drawing.Size(207, 30);
+            this.cinemaToolStripMenuItem1.Size = new System.Drawing.Size(166, 26);
             this.cinemaToolStripMenuItem1.Text = "Cinema";
             // 
             // studioToolStripMenuItem1
             // 
             this.studioToolStripMenuItem1.Name = "studioToolStripMenuItem1";
-            this.studioToolStripMenuItem1.Size = new System.Drawing.Size(207, 30);
+            this.studioToolStripMenuItem1.Size = new System.Drawing.Size(166, 26);
             this.studioToolStripMenuItem1.Text = "Studio";
             // 
             // jenisStudioToolStripMenuItem1
             // 
             this.jenisStudioToolStripMenuItem1.Name = "jenisStudioToolStripMenuItem1";
-            this.jenisStudioToolStripMenuItem1.Size = new System.Drawing.Size(207, 30);
+            this.jenisStudioToolStripMenuItem1.Size = new System.Drawing.Size(166, 26);
             this.jenisStudioToolStripMenuItem1.Text = "Jenis Studio";
             // 
             // genreToolStripMenuItem1
             // 
             this.genreToolStripMenuItem1.Name = "genreToolStripMenuItem1";
-            this.genreToolStripMenuItem1.Size = new System.Drawing.Size(207, 30);
+            this.genreToolStripMenuItem1.Size = new System.Drawing.Size(166, 26);
             this.genreToolStripMenuItem1.Text = "Genre";
             // 
             // kelompokToolStripMenuItem1
             // 
             this.kelompokToolStripMenuItem1.Name = "kelompokToolStripMenuItem1";
-            this.kelompokToolStripMenuItem1.Size = new System.Drawing.Size(207, 30);
+            this.kelompokToolStripMenuItem1.Size = new System.Drawing.Size(166, 26);
             this.kelompokToolStripMenuItem1.Text = "Kelompok";
             // 
             // aktorsToolStripMenuItem1
             // 
             this.aktorsToolStripMenuItem1.Name = "aktorsToolStripMenuItem1";
-            this.aktorsToolStripMenuItem1.Size = new System.Drawing.Size(207, 30);
+            this.aktorsToolStripMenuItem1.Size = new System.Drawing.Size(166, 26);
             this.aktorsToolStripMenuItem1.Text = "Aktors";
             // 
             // pegawaiToolStripMenuItem
             // 
             this.pegawaiToolStripMenuItem.Name = "pegawaiToolStripMenuItem";
-            this.pegawaiToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
+            this.pegawaiToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
             this.pegawaiToolStripMenuItem.Text = "Pegawai";
             // 
             // konsumenToolStripMenuItem
             // 
             this.konsumenToolStripMenuItem.Name = "konsumenToolStripMenuItem";
-            this.konsumenToolStripMenuItem.Size = new System.Drawing.Size(207, 30);
+            this.konsumenToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
             this.konsumenToolStripMenuItem.Text = "Konsumen";
             // 
             // tansaksiToolStripMenuItem
@@ -272,29 +274,30 @@ namespace Celikoor_Kelompok6
             this.pemesananTiketToolStripMenuItem1,
             this.penjualanTiketToolStripMenuItem1});
             this.tansaksiToolStripMenuItem.Name = "tansaksiToolStripMenuItem";
-            this.tansaksiToolStripMenuItem.Size = new System.Drawing.Size(173, 30);
+            this.tansaksiToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.tansaksiToolStripMenuItem.Text = "Tansaksi";
             // 
             // pemesananTiketToolStripMenuItem1
             // 
             this.pemesananTiketToolStripMenuItem1.Name = "pemesananTiketToolStripMenuItem1";
-            this.pemesananTiketToolStripMenuItem1.Size = new System.Drawing.Size(251, 30);
+            this.pemesananTiketToolStripMenuItem1.Size = new System.Drawing.Size(198, 26);
             this.pemesananTiketToolStripMenuItem1.Text = "Pemesanan Tiket";
             // 
             // penjualanTiketToolStripMenuItem1
             // 
             this.penjualanTiketToolStripMenuItem1.Name = "penjualanTiketToolStripMenuItem1";
-            this.penjualanTiketToolStripMenuItem1.Size = new System.Drawing.Size(251, 30);
+            this.penjualanTiketToolStripMenuItem1.Size = new System.Drawing.Size(198, 26);
             this.penjualanTiketToolStripMenuItem1.Text = "Penjualan Tiket";
             // 
             // FormUtama
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(846, 605);
+            this.ClientSize = new System.Drawing.Size(634, 492);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormUtama";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Celikoor";
