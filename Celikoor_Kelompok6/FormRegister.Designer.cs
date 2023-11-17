@@ -52,16 +52,17 @@ namespace Celikoor_Kelompok6
             this.radioButtonLaki = new System.Windows.Forms.RadioButton();
             this.radioButtonWanita = new System.Windows.Forms.RadioButton();
             this.checkBoxShowPass = new System.Windows.Forms.CheckBox();
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.checkBoxRules = new System.Windows.Forms.CheckBox();
             this.pictureBoxGaris = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGaris)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxNama
             // 
             this.textBoxNama.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNama.Location = new System.Drawing.Point(294, 164);
+            this.textBoxNama.Location = new System.Drawing.Point(282, 143);
             this.textBoxNama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxNama.Name = "textBoxNama";
             this.textBoxNama.Size = new System.Drawing.Size(522, 39);
@@ -71,7 +72,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelEmail.AutoSize = true;
             this.labelEmail.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEmail.Location = new System.Drawing.Point(53, 234);
+            this.labelEmail.Location = new System.Drawing.Point(41, 213);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(84, 36);
             this.labelEmail.TabIndex = 34;
@@ -81,7 +82,7 @@ namespace Celikoor_Kelompok6
             // 
             this.buttonKembali.BackColor = System.Drawing.Color.Tan;
             this.buttonKembali.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKembali.Location = new System.Drawing.Point(648, 770);
+            this.buttonKembali.Location = new System.Drawing.Point(689, 800);
             this.buttonKembali.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonKembali.Name = "buttonKembali";
             this.buttonKembali.Size = new System.Drawing.Size(168, 48);
@@ -94,7 +95,7 @@ namespace Celikoor_Kelompok6
             // 
             this.buttonDaftar.BackColor = System.Drawing.Color.Tan;
             this.buttonDaftar.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDaftar.Location = new System.Drawing.Point(46, 770);
+            this.buttonDaftar.Location = new System.Drawing.Point(25, 800);
             this.buttonDaftar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonDaftar.Name = "buttonDaftar";
             this.buttonDaftar.Size = new System.Drawing.Size(163, 48);
@@ -105,7 +106,7 @@ namespace Celikoor_Kelompok6
             // textBoxNomorHP
             // 
             this.textBoxNomorHP.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNomorHP.Location = new System.Drawing.Point(294, 302);
+            this.textBoxNomorHP.Location = new System.Drawing.Point(282, 278);
             this.textBoxNomorHP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxNomorHP.Name = "textBoxNomorHP";
             this.textBoxNomorHP.Size = new System.Drawing.Size(522, 39);
@@ -115,7 +116,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPassword.Location = new System.Drawing.Point(51, 664);
+            this.labelPassword.Location = new System.Drawing.Point(39, 625);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(130, 36);
             this.labelPassword.TabIndex = 30;
@@ -124,7 +125,7 @@ namespace Celikoor_Kelompok6
             // textBoxEmail
             // 
             this.textBoxEmail.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail.Location = new System.Drawing.Point(294, 231);
+            this.textBoxEmail.Location = new System.Drawing.Point(282, 210);
             this.textBoxEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(522, 39);
@@ -134,7 +135,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelUsername.AutoSize = true;
             this.labelUsername.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUsername.Location = new System.Drawing.Point(51, 592);
+            this.labelUsername.Location = new System.Drawing.Point(39, 551);
             this.labelUsername.Name = "labelUsername";
             this.labelUsername.Size = new System.Drawing.Size(146, 36);
             this.labelUsername.TabIndex = 28;
@@ -155,7 +156,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelNama.AutoSize = true;
             this.labelNama.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNama.Location = new System.Drawing.Point(51, 164);
+            this.labelNama.Location = new System.Drawing.Point(39, 143);
             this.labelNama.Name = "labelNama";
             this.labelNama.Size = new System.Drawing.Size(86, 36);
             this.labelNama.TabIndex = 36;
@@ -165,7 +166,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelNomorHP.AutoSize = true;
             this.labelNomorHP.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomorHP.Location = new System.Drawing.Point(51, 302);
+            this.labelNomorHP.Location = new System.Drawing.Point(39, 278);
             this.labelNomorHP.Name = "labelNomorHP";
             this.labelNomorHP.Size = new System.Drawing.Size(139, 36);
             this.labelNomorHP.TabIndex = 37;
@@ -175,7 +176,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelGender.AutoSize = true;
             this.labelGender.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelGender.Location = new System.Drawing.Point(51, 370);
+            this.labelGender.Location = new System.Drawing.Point(39, 344);
             this.labelGender.Name = "labelGender";
             this.labelGender.Size = new System.Drawing.Size(106, 36);
             this.labelGender.TabIndex = 38;
@@ -185,7 +186,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelTanggalLahir.AutoSize = true;
             this.labelTanggalLahir.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTanggalLahir.Location = new System.Drawing.Point(53, 442);
+            this.labelTanggalLahir.Location = new System.Drawing.Point(41, 414);
             this.labelTanggalLahir.Name = "labelTanggalLahir";
             this.labelTanggalLahir.Size = new System.Drawing.Size(180, 36);
             this.labelTanggalLahir.TabIndex = 39;
@@ -195,7 +196,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelSaldo.AutoSize = true;
             this.labelSaldo.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSaldo.Location = new System.Drawing.Point(55, 515);
+            this.labelSaldo.Location = new System.Drawing.Point(43, 485);
             this.labelSaldo.Name = "labelSaldo";
             this.labelSaldo.Size = new System.Drawing.Size(82, 36);
             this.labelSaldo.TabIndex = 40;
@@ -204,7 +205,7 @@ namespace Celikoor_Kelompok6
             // textBoxSaldo
             // 
             this.textBoxSaldo.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSaldo.Location = new System.Drawing.Point(294, 512);
+            this.textBoxSaldo.Location = new System.Drawing.Point(282, 482);
             this.textBoxSaldo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxSaldo.Name = "textBoxSaldo";
             this.textBoxSaldo.Size = new System.Drawing.Size(522, 39);
@@ -213,7 +214,7 @@ namespace Celikoor_Kelompok6
             // textBoxUsername
             // 
             this.textBoxUsername.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsername.Location = new System.Drawing.Point(294, 589);
+            this.textBoxUsername.Location = new System.Drawing.Point(282, 551);
             this.textBoxUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxUsername.Name = "textBoxUsername";
             this.textBoxUsername.Size = new System.Drawing.Size(522, 39);
@@ -222,7 +223,7 @@ namespace Celikoor_Kelompok6
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(294, 664);
+            this.textBoxPassword.Location = new System.Drawing.Point(282, 624);
             this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(522, 39);
@@ -232,7 +233,7 @@ namespace Celikoor_Kelompok6
             // 
             this.buttonKosongi.BackColor = System.Drawing.Color.Tan;
             this.buttonKosongi.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKosongi.Location = new System.Drawing.Point(342, 770);
+            this.buttonKosongi.Location = new System.Drawing.Point(351, 800);
             this.buttonKosongi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonKosongi.Name = "buttonKosongi";
             this.buttonKosongi.Size = new System.Drawing.Size(163, 48);
@@ -243,7 +244,7 @@ namespace Celikoor_Kelompok6
             // dateTimePickerTanggalLahir
             // 
             this.dateTimePickerTanggalLahir.Font = new System.Drawing.Font("Trebuchet MS", 16.2F);
-            this.dateTimePickerTanggalLahir.Location = new System.Drawing.Point(294, 442);
+            this.dateTimePickerTanggalLahir.Location = new System.Drawing.Point(282, 414);
             this.dateTimePickerTanggalLahir.Name = "dateTimePickerTanggalLahir";
             this.dateTimePickerTanggalLahir.Size = new System.Drawing.Size(522, 39);
             this.dateTimePickerTanggalLahir.TabIndex = 45;
@@ -252,7 +253,7 @@ namespace Celikoor_Kelompok6
             // 
             this.radioButtonLaki.AutoSize = true;
             this.radioButtonLaki.Font = new System.Drawing.Font("Trebuchet MS", 16.2F);
-            this.radioButtonLaki.Location = new System.Drawing.Point(294, 370);
+            this.radioButtonLaki.Location = new System.Drawing.Point(282, 344);
             this.radioButtonLaki.Name = "radioButtonLaki";
             this.radioButtonLaki.Size = new System.Drawing.Size(87, 40);
             this.radioButtonLaki.TabIndex = 46;
@@ -264,7 +265,7 @@ namespace Celikoor_Kelompok6
             // 
             this.radioButtonWanita.AutoSize = true;
             this.radioButtonWanita.Font = new System.Drawing.Font("Trebuchet MS", 16.2F);
-            this.radioButtonWanita.Location = new System.Drawing.Point(462, 370);
+            this.radioButtonWanita.Location = new System.Drawing.Point(450, 344);
             this.radioButtonWanita.Name = "radioButtonWanita";
             this.radioButtonWanita.Size = new System.Drawing.Size(122, 40);
             this.radioButtonWanita.TabIndex = 47;
@@ -279,13 +280,33 @@ namespace Celikoor_Kelompok6
             this.checkBoxShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxShowPass.Font = new System.Drawing.Font("Trebuchet MS", 10.8F);
             this.checkBoxShowPass.ForeColor = System.Drawing.Color.DimGray;
-            this.checkBoxShowPass.Location = new System.Drawing.Point(658, 719);
+            this.checkBoxShowPass.Location = new System.Drawing.Point(646, 677);
             this.checkBoxShowPass.Name = "checkBoxShowPass";
             this.checkBoxShowPass.Size = new System.Drawing.Size(158, 28);
             this.checkBoxShowPass.TabIndex = 48;
             this.checkBoxShowPass.Text = "Show Password";
             this.checkBoxShowPass.UseVisualStyleBackColor = true;
             this.checkBoxShowPass.CheckedChanged += new System.EventHandler(this.checkBoxShowPass_CheckedChanged);
+            // 
+            // checkBoxRules
+            // 
+            this.checkBoxRules.AutoSize = true;
+            this.checkBoxRules.Font = new System.Drawing.Font("Trebuchet MS", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxRules.Location = new System.Drawing.Point(45, 725);
+            this.checkBoxRules.Name = "checkBoxRules";
+            this.checkBoxRules.Size = new System.Drawing.Size(726, 36);
+            this.checkBoxRules.TabIndex = 88;
+            this.checkBoxRules.Text = "I have read and agree to Terms Conditions and Privacy Policy";
+            this.checkBoxRules.UseVisualStyleBackColor = true;
+            // 
+            // pictureBoxGaris
+            // 
+            this.pictureBoxGaris.BackColor = System.Drawing.Color.Tan;
+            this.pictureBoxGaris.Location = new System.Drawing.Point(-5, -34);
+            this.pictureBoxGaris.Name = "pictureBoxGaris";
+            this.pictureBoxGaris.Size = new System.Drawing.Size(65, 149);
+            this.pictureBoxGaris.TabIndex = 86;
+            this.pictureBoxGaris.TabStop = false;
             // 
             // pictureBoxLogo
             // 
@@ -300,21 +321,13 @@ namespace Celikoor_Kelompok6
             this.pictureBoxLogo.TabIndex = 49;
             this.pictureBoxLogo.TabStop = false;
             // 
-            // pictureBoxGaris
-            // 
-            this.pictureBoxGaris.BackColor = System.Drawing.Color.Tan;
-            this.pictureBoxGaris.Location = new System.Drawing.Point(-5, -34);
-            this.pictureBoxGaris.Name = "pictureBoxGaris";
-            this.pictureBoxGaris.Size = new System.Drawing.Size(65, 149);
-            this.pictureBoxGaris.TabIndex = 86;
-            this.pictureBoxGaris.TabStop = false;
-            // 
             // FormRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(862, 834);
+            this.ClientSize = new System.Drawing.Size(892, 862);
+            this.Controls.Add(this.checkBoxRules);
             this.Controls.Add(this.pictureBoxGaris);
             this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.checkBoxShowPass);
@@ -344,8 +357,8 @@ namespace Celikoor_Kelompok6
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.Load += new System.EventHandler(this.FormRegister_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGaris)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -377,5 +390,6 @@ namespace Celikoor_Kelompok6
         private System.Windows.Forms.CheckBox checkBoxShowPass;
         private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.PictureBox pictureBoxGaris;
+        private System.Windows.Forms.CheckBox checkBoxRules;
     }
 }

@@ -38,7 +38,11 @@ namespace Celikoor_Kelompok6
             this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.labelUsername = new System.Windows.Forms.Label();
             this.checkBoxShowPass = new System.Windows.Forms.CheckBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,12 +62,12 @@ namespace Celikoor_Kelompok6
             this.linkRegister.Font = new System.Drawing.Font("Trebuchet MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkRegister.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.linkRegister.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.linkRegister.Location = new System.Drawing.Point(183, 317);
+            this.linkRegister.Location = new System.Drawing.Point(260, 317);
             this.linkRegister.Name = "linkRegister";
-            this.linkRegister.Size = new System.Drawing.Size(177, 24);
+            this.linkRegister.Size = new System.Drawing.Size(203, 24);
             this.linkRegister.TabIndex = 26;
             this.linkRegister.TabStop = true;
-            this.linkRegister.Text = "Don\'t have account?";
+            this.linkRegister.Text = "Don\'t have an account?";
             this.linkRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkRegister_LinkClicked);
             // 
             // buttonKembali
@@ -85,7 +89,7 @@ namespace Celikoor_Kelompok6
             this.buttonMasuk.AutoSize = true;
             this.buttonMasuk.BackColor = System.Drawing.Color.Tan;
             this.buttonMasuk.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMasuk.Location = new System.Drawing.Point(30, 383);
+            this.buttonMasuk.Location = new System.Drawing.Point(30, 382);
             this.buttonMasuk.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonMasuk.Name = "buttonMasuk";
             this.buttonMasuk.Size = new System.Drawing.Size(107, 48);
@@ -97,17 +101,17 @@ namespace Celikoor_Kelompok6
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(187, 257);
+            this.textBoxPassword.Location = new System.Drawing.Point(264, 257);
             this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(524, 39);
+            this.textBoxPassword.Size = new System.Drawing.Size(494, 39);
             this.textBoxPassword.TabIndex = 23;
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPassword.Location = new System.Drawing.Point(32, 257);
+            this.labelPassword.Location = new System.Drawing.Point(96, 260);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(130, 36);
             this.labelPassword.TabIndex = 22;
@@ -116,17 +120,17 @@ namespace Celikoor_Kelompok6
             // textBoxUsername
             // 
             this.textBoxUsername.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsername.Location = new System.Drawing.Point(187, 190);
+            this.textBoxUsername.Location = new System.Drawing.Point(264, 190);
             this.textBoxUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(524, 39);
+            this.textBoxUsername.Size = new System.Drawing.Size(494, 39);
             this.textBoxUsername.TabIndex = 21;
             // 
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
             this.labelUsername.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUsername.Location = new System.Drawing.Point(24, 193);
+            this.labelUsername.Location = new System.Drawing.Point(88, 190);
             this.labelUsername.Name = "labelUsername";
             this.labelUsername.Size = new System.Drawing.Size(138, 36);
             this.labelUsername.TabIndex = 20;
@@ -139,13 +143,39 @@ namespace Celikoor_Kelompok6
             this.checkBoxShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxShowPass.Font = new System.Drawing.Font("Trebuchet MS", 10.8F);
             this.checkBoxShowPass.ForeColor = System.Drawing.Color.DimGray;
-            this.checkBoxShowPass.Location = new System.Drawing.Point(553, 317);
+            this.checkBoxShowPass.Location = new System.Drawing.Point(600, 317);
             this.checkBoxShowPass.Name = "checkBoxShowPass";
             this.checkBoxShowPass.Size = new System.Drawing.Size(158, 28);
             this.checkBoxShowPass.TabIndex = 29;
             this.checkBoxShowPass.Text = "Show Password";
             this.checkBoxShowPass.UseVisualStyleBackColor = true;
             this.checkBoxShowPass.CheckedChanged += new System.EventHandler(this.checkBoxShowPass_CheckedChanged);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::Celikoor_Kelompok6.Properties.Resources.Password;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox2.Location = new System.Drawing.Point(38, 252);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(36, 44);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 31;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::Celikoor_Kelompok6.Properties.Resources.Username_Login;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Location = new System.Drawing.Point(38, 190);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
             // 
             // pictureBoxLogo
             // 
@@ -166,6 +196,8 @@ namespace Celikoor_Kelompok6
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(789, 443);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.checkBoxShowPass);
             this.Controls.Add(this.labelJudul);
             this.Controls.Add(this.pictureBoxLogo);
@@ -181,6 +213,8 @@ namespace Celikoor_Kelompok6
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.FormLogin_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -199,5 +233,7 @@ namespace Celikoor_Kelompok6
         private System.Windows.Forms.TextBox textBoxUsername;
         private System.Windows.Forms.Label labelUsername;
         private System.Windows.Forms.CheckBox checkBoxShowPass;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
