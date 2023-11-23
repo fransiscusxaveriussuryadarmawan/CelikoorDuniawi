@@ -73,3 +73,6 @@ D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Data
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.CopyComplete
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.exe
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.pdb
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\Celikoor_LIB.dll
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\MySql.Data.dll
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\Celikoor_LIB.pdb

@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Celikoor_LIB;
 
 namespace Celikoor_Kelompok6
 {
     public partial class FormUtama : Form
     {
+        //public Pegawai pengguna;
+        //public Pegawai pengguna;
+
         public FormUtama()
         {
             InitializeComponent();
@@ -22,10 +26,34 @@ namespace Celikoor_Kelompok6
             this.WindowState = FormWindowState.Maximized;
             this.IsMdiContainer = true;
 
-            FormLogin frmLogin = new FormLogin();
-            frmLogin.Owner = this;
-            this.Hide();
-            frmLogin.ShowDialog();
+            try
+            {
+                Koneksi koneksi = new Koneksi();
+                MessageBox.Show("Koneksi Database Berhasil", "Informasi");
+
+                FormLogin frmLogin = new FormLogin();
+                frmLogin.Owner = this;
+                this.Hide();
+                frmLogin.ShowDialog();
+
+                //if (formLogin.ShowDialog() == DialogResult.OK) //jika login sukses
+                //{
+                //    labelKodePegawai.Text = pengguna.KodePegawai;
+                //    labelNamaPegawai.Text = pengguna.Nama;
+                //}
+                //else //jika login gagal
+                //{
+                //    MessageBox.Show("Gagal Login");
+                //    Application.Exit();
+                //}
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Koneksi Gagal. Pesan Kesalahan : " + ex.Message);
+            }
+
+           
+            
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
