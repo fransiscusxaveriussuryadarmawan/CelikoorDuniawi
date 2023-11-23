@@ -34,11 +34,11 @@ namespace Celikoor_LIB
         {
             Configuration myConf = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             ConfigurationSectionGroup userSetting = myConf.SectionGroups["userSettings"];
-            var settingSection = userSetting.Sections["KuisAkhirSemester_1.qz"] as ClientSettingsSection;
-            string vServer = settingSection.Settings.Get("dbServer").Value.ValueXml.InnerText;
-            string vDb = settingSection.Settings.Get("dbName").Value.ValueXml.InnerText;
-            string vUID = settingSection.Settings.Get("dbUID").Value.ValueXml.InnerText;
-            string vPWD = settingSection.Settings.Get("dbPWD").Value.ValueXml.InnerText;
+            var settingSection = userSetting.Sections["Celikoor_Kelompok6.db"] as ClientSettingsSection;
+            string vServer = settingSection.Settings.Get("DbServer").Value.ValueXml.InnerText;
+            string vDb = settingSection.Settings.Get("DbName").Value.ValueXml.InnerText;
+            string vUID = settingSection.Settings.Get("DbUsername").Value.ValueXml.InnerText;
+            string vPWD = settingSection.Settings.Get("DbPassword").Value.ValueXml.InnerText;
 
             string vConnString = "Server=" + vServer + ";Database=" + vDb + ";Uid=" + vUID + ";Pwd=" + vPWD + ";";
 
