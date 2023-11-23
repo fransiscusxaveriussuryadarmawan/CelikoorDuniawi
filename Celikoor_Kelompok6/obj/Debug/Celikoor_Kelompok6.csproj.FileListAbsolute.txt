@@ -54,3 +54,22 @@ E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoo
 E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.CopyComplete
 E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.exe
 E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.pdb
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\Celikoor_Kelompok6.exe.config
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\Celikoor_Kelompok6.exe
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\Celikoor_Kelompok6.pdb
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\CircularProgressBar.dll
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\WinFormAnimation.dll
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\CircularProgressBar.xml
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\bin\Debug\WinFormAnimation.xml
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.AssemblyReference.cache
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormCheckProfile.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormLogin.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormRegister.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormSplashScreenUtama.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormUtama.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.Properties.Resources.resources
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.GenerateResource.cache
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.CoreCompileInputs.cache
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.CopyComplete
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.exe
+D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.pdb
