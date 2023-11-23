@@ -15,6 +15,7 @@ namespace Celikoor_Kelompok6
     {
         //public Pegawai pengguna;
         //public Pegawai pengguna;
+        
 
         public FormUtama()
         {
@@ -50,10 +51,7 @@ namespace Celikoor_Kelompok6
             catch (Exception ex)
             {
                 MessageBox.Show("Koneksi Gagal. Pesan Kesalahan : " + ex.Message);
-            }
-
-           
-            
+            } 
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

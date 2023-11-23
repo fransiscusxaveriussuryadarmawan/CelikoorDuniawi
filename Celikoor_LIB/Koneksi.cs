@@ -55,7 +55,7 @@ namespace Celikoor_LIB
             KoneksiDB.Open();
         }
 
-        public static MySqlDataReader JalankanPerintahSelect(string sql)
+        public static MySqlDataReader JalankanPerintahQuery(string sql)
         {
             Koneksi k = new Koneksi();
 
