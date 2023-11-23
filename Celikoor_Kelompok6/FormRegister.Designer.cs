@@ -102,6 +102,7 @@ namespace Celikoor_Kelompok6
             this.buttonDaftar.TabIndex = 32;
             this.buttonDaftar.Text = "Daftar";
             this.buttonDaftar.UseVisualStyleBackColor = false;
+            this.buttonDaftar.Click += new System.EventHandler(this.buttonDaftar_Click);
             // 
             // textBoxNomorHP
             // 
@@ -240,6 +241,7 @@ namespace Celikoor_Kelompok6
             this.buttonKosongi.TabIndex = 44;
             this.buttonKosongi.Text = "Kosongi";
             this.buttonKosongi.UseVisualStyleBackColor = false;
+            this.buttonKosongi.Click += new System.EventHandler(this.buttonKosongi_Click);
             // 
             // dateTimePickerTanggalLahir
             // 

@@ -73,12 +73,138 @@ namespace Celikoor_LIB
 
             while (hasil.Read() == true) //selama ini masih ada data atau masih bisa membaca data
             {
-
                 Konsumen k = new Konsumen();
+                k.Id = hasil.GetValue(0).ToString();
+                k.Nama = hasil.GetValue(1).ToString();
+                k.Email = hasil.GetValue(2).ToString();
+                k.NoHP = hasil.GetValue(3).ToString();
+                k.Gender = hasil.GetValue(4).ToString();
+                k.TglLahir = DateTime.Parse(hasil.GetValue(5).ToString());
+                k.Saldo = double.Parse(hasil.GetValue(6).ToString());
+                k.Username = hasil.GetValue(7).ToString();
+                k.Password = hasil.GetValue(8).ToString();
 
-                //return u;
+                return k;
             }
             return null;
+        }
+
+        //Method Tambah Data
+        public static void TambahData(Konsumen k)
+        {
+            string sql = "INSERT INTO konsumens (id, nama, email, no_hp, gender, tgl_lahir, saldo, username, password) " +
+                        " values ('" + k.Id + "','" + k.Nama + "','" + k.Email + "','" + k.NoHP + "','" +
+                        k.Gender + "','" + k.TglLahir.ToString("yyyy-MM-dd") + "','" + k.Saldo + "','" +
+                        k.Username + "','" + k.Password + "')";
+
+            Koneksi.JalankanPerintahNonQuery(sql);
+        }
+
+        //Method Generate Kode
+        public static string GenerateKode()
+        {
+            //dapatkan kode konsumen terakhir (kode terbesar)
+            string sql = "select max(id) from konsumens";
+
+            string hasilKode = "";
+
+            MySqlDataReader hasil = Koneksi.JalankanPerintahQuery(sql);
+
+            if (hasil.Read() != true)
+            {
+                hasilKode = "1";
+            }
+            else
+            {
+                int kodeTerbaru = int.Parse(hasil.GetValue(0).ToString()) + 1;
+
+                hasilKode = kodeTerbaru.ToString();
+            }
+
+            return hasilKode;
+        }
+
+        //Method Baca Data
+        public static List<Konsumen> BacaData(string kriteria, string nilaiKriteria)
+        {
+            string sql = "";
+
+            if (kriteria == "") //jika tidak ada kriteria yang diisikan
+            {
+                sql = "select K.id, K.nama, K.email, K.no_hp, K.gender, K.tgl_lahir, K.saldo, K.username , K.password " +
+                    " from konsumens K";
+            }
+            else
+            {
+                sql = "select K.id, K.nama, K.email, K.no_hp, K.gender, K.tgl_lahir, K.saldo, K.username, K.password " +
+                    " from konsumens K" +
+                    " where " + kriteria + " like '%" + nilaiKriteria + "%'"; ;
+            }
+
+            MySqlDataReader hasil = Koneksi.JalankanPerintahQuery(sql);
+
+            //buat list untuk menampung data
+            List<Konsumen> listKonsumen = new List<Konsumen>(); //listnya berisi objek kategori
+            while (hasil.Read() == true) //selama masih ada data atau masih bisa membaca data
+            {
+                //baca data dari MySqlDataReader dan simpan di objek
+                Konsumen k = new Konsumen();
+                k.Id = hasil.GetValue(0).ToString();
+                k.Nama = hasil.GetValue(1).ToString();
+                k.Email = hasil.GetValue(2).ToString();
+                k.NoHP = hasil.GetValue(3).ToString();
+                k.Gender = hasil.GetValue(4).ToString();
+                k.TglLahir = DateTime.Parse(hasil.GetValue(5).ToString());
+                k.Saldo = double.Parse(hasil.GetValue(6).ToString());
+                k.Username = hasil.GetValue(7).ToString();
+                k.Password = hasil.GetValue(8).ToString();
+
+                listKonsumen.Add(k);
+            }
+            return listKonsumen;
+        }
+
+        //Method Ubah Data
+        public static void UbahData(Konsumen k)
+        {
+            //string sql = "update konsumens set id='" + k.Id +
+            //                "',nama='" + k.Nama +
+            //                "',email='" + k.Email +
+            //                "',no_hp='" + k.NoHP +
+            //                "',gender='" + k.Gender +
+            //                "',tgl_lahir='" + k.TglLahir.ToString("yyyy-MM-dd") +
+            //                "',saldo='" + k.Saldo +
+            //                "',username='" + k.Username +
+            //                "',password='" + k.Password + "'";
+
+            string sql = "update konsumens set nama='" + k.Nama +
+                            "',email='" + k.Email +
+                            "',no_hp='" + k.NoHP +
+                            "',gender='" + k.Gender +
+                            "',tgl_lahir='" + k.TglLahir.ToString("yyyy-MM-dd") +
+                            "',saldo='" + k.Saldo +
+                            "',username='" + k.Username +
+                            "',password='" + k.Password + 
+                            "' where id='" + k.Id + 
+                            "'";
+
+            Koneksi.JalankanPerintahNonQuery(sql);
+        }
+
+        //Method Hapus Data
+        public static Boolean HapusData(Konsumen pK)
+        {
+            string perintah = "delete from konsumens where id='" + pK.Id + "'";
+
+            int jumlahDataBerubah = Koneksi.JalankanPerintahNonQuery(perintah);
+            if (jumlahDataBerubah == 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
         #endregion
     }

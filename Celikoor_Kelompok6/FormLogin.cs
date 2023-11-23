@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Celikoor_LIB;
 
 namespace Celikoor_Kelompok6
 {
@@ -24,8 +25,58 @@ namespace Celikoor_Kelompok6
 
         private void buttonMasuk_Click(object sender, EventArgs e)
         {
-            string user = textBoxUsername.Text;
-            string pass = textBoxPassword.Text;
+            try
+            {
+                //create objek Koneksi
+                Koneksi koneksi = new Koneksi();
+
+                // username dan password
+                Konsumen k = Konsumen.CekLogin(textBoxUsername.Text, textBoxPassword.Text);
+                Pegawai p = Pegawai.CekLogin(textBoxUsername.Text, textBoxPassword.Text);
+
+                if (!(k is null)) //jika ditemukan konsumen dengan username dan password tersebut
+                {
+                    FormUtama formUtama = (FormUtama)this.Owner;
+                    formUtama.userKonsumen = k;
+
+                    MessageBox.Show("Koneksi berhasil. Selamat menggunakan aplikasi.", "Informasi");
+
+                    //panggil method hak akses
+                    string peran = "konsumens";
+                    formUtama.AturMenu(peran);
+
+                    this.DialogResult = DialogResult.OK;
+                    formUtama.Visible = true;
+                    this.Close(); //tutup FormLogin
+                }
+
+                else if (!(p is null)) //jika ditemukan pegawai dengan username dan password tersebut
+                {
+                    FormUtama formUtama = (FormUtama)this.Owner;
+                    formUtama.userPegawai = p;
+
+                    MessageBox.Show("Koneksi berhasil. Selamat menggunakan aplikasi.", "Informasi");
+
+                    //panggil method hak akses
+                    string peran = "pegawais";
+                    formUtama.AturMenu(peran);
+
+                    this.DialogResult = DialogResult.OK;
+                    formUtama.Visible = true;
+                    this.Close(); //tutup FormLogin
+                }
+
+                else
+                {
+                    MessageBox.Show(this, "Username tidak ditemukan atau password salah");
+                }
+
+                this.DialogResult = DialogResult.OK;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Koneksi gagal. Pesan kesalahan : " + ex.Message, "Kesalahan");
+            }
         }
 
         private void linkRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
