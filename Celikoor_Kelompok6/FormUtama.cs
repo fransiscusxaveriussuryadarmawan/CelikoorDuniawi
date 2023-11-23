@@ -37,5 +37,25 @@ namespace Celikoor_Kelompok6
         {
 
         }
+
+        private void AturMenu(string peran)
+        {
+            if(peran == "konsumens")
+            {
+                akunToolStripMenuItem.Enabled = true;
+                masterToolStripMenuItem.Enabled = false;
+                laporanToolStripMenuItem.Enabled = false;
+                pemesananTiketToolStripMenuItem.Enabled = true;
+                penjualanTiketToolStripMenuItem.Enabled = false;
+            }
+            else if(peran == "pegawais")
+            {
+                akunToolStripMenuItem.Enabled = true;
+                masterToolStripMenuItem.Enabled = true;
+                laporanToolStripMenuItem.Enabled = true;
+                pemesananTiketToolStripMenuItem.Enabled = false;
+                penjualanTiketToolStripMenuItem.Enabled = true;
+            }
+        }
     }
 }

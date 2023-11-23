@@ -35,3 +35,22 @@ F:\College\Sistem Informasi\Semester 3\Database\Tugas\Celikoor_Kelompok6\Celikoo
 F:\College\Sistem Informasi\Semester 3\Database\Tugas\Celikoor_Kelompok6\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.CopyComplete
 F:\College\Sistem Informasi\Semester 3\Database\Tugas\Celikoor_Kelompok6\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.exe
 F:\College\Sistem Informasi\Semester 3\Database\Tugas\Celikoor_Kelompok6\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.pdb
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\bin\Debug\Celikoor_Kelompok6.exe.config
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\bin\Debug\Celikoor_Kelompok6.exe
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\bin\Debug\Celikoor_Kelompok6.pdb
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\bin\Debug\CircularProgressBar.dll
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\bin\Debug\WinFormAnimation.dll
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\bin\Debug\CircularProgressBar.xml
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\bin\Debug\WinFormAnimation.xml
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.AssemblyReference.cache
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormCheckProfile.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormLogin.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormRegister.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormSplashScreenUtama.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormUtama.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.Properties.Resources.resources
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.GenerateResource.cache
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.CoreCompileInputs.cache
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.csproj.CopyComplete
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.exe
+E:\.Michelle\Kuliah\Semester 3\Database\UAS\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.pdb
