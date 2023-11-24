@@ -167,16 +167,6 @@ namespace Celikoor_LIB
         //Method Ubah Data
         public static void UbahData(Konsumen k)
         {
-            //string sql = "update konsumens set id='" + k.Id +
-            //                "',nama='" + k.Nama +
-            //                "',email='" + k.Email +
-            //                "',no_hp='" + k.NoHP +
-            //                "',gender='" + k.Gender +
-            //                "',tgl_lahir='" + k.TglLahir.ToString("yyyy-MM-dd") +
-            //                "',saldo='" + k.Saldo +
-            //                "',username='" + k.Username +
-            //                "',password='" + k.Password + "'";
-
             string sql = "update konsumens set nama='" + k.Nama +
                             "',email='" + k.Email +
                             "',no_hp='" + k.NoHP +
