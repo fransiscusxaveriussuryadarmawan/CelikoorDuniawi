@@ -16,7 +16,7 @@ namespace Celikoor_Kelompok6
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormUtama());
+            Application.Run(new FormSplashScreenUtama());
         }
     }
 }
