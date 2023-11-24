@@ -39,7 +39,7 @@ namespace Celikoor_Kelompok6
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormTambahKelompok";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormTambahKelompok";
+            this.Text = "Tambah Kelompok";
             this.ResumeLayout(false);
 
         }

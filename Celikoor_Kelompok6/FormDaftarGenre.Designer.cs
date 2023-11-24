@@ -39,7 +39,7 @@ namespace Celikoor_Kelompok6
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormDaftarGenre";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormDaftarGenre";
+            this.Text = "Daftar Genre";
             this.ResumeLayout(false);
 
         }

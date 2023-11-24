@@ -31,6 +31,7 @@ namespace Celikoor_Kelompok6
             textBoxSaldo.Text = "";
             textBoxUsername.Text = "";
             textBoxPassword.Text = "";
+            textBoxUlangPassword.Text = "";
             textBoxNama.Focus();
         }
 
@@ -72,37 +73,46 @@ namespace Celikoor_Kelompok6
 
         private void buttonSimpan_Click(object sender, EventArgs e)
         {
-            try
+            if (textBoxPassword.Text != textBoxUlangPassword.Text)
             {
-                string gender = "";
-
-                if (radioButtonLaki.Checked)
-                {
-                    gender = "L";
-                }
-
-                else if (radioButtonWanita.Checked)
-                {
-                    gender = "P";
-                }
-
-                konsumenDipilih.Nama = textBoxNama.Text;
-                konsumenDipilih.Email = textBoxEmail.Text;
-                konsumenDipilih.NoHP = textBoxNomorHP.Text;
-                konsumenDipilih.Gender = gender;
-                konsumenDipilih.TglLahir = dateTimePickerTanggalLahir.Value;
-                konsumenDipilih.Saldo = double.Parse(textBoxSaldo.Text);
-                konsumenDipilih.Username = textBoxUsername.Text;
-                konsumenDipilih.Password = textBoxPassword.Text;
-
-                //panggil method UbahData di class Konsumen
-                Konsumen.UbahData(konsumenDipilih);
-
-                MessageBox.Show("Data konsumen telah diubah.", "Info");
+                MessageBox.Show("Password tidak sama !");
             }
-            catch (Exception ex)
+
+            else
             {
-                MessageBox.Show("Pengubahan gagal. Pesan kesalahan : " + ex.Message, "Kesalahan");
+                try
+                {
+                    string gender = "";
+
+                    if (radioButtonLaki.Checked)
+                    {
+                        gender = "L";
+                    }
+
+                    else if (radioButtonWanita.Checked)
+                    {
+                        gender = "P";
+                    }
+
+                    konsumenDipilih.Nama = textBoxNama.Text;
+                    konsumenDipilih.Email = textBoxEmail.Text;
+                    konsumenDipilih.NoHP = textBoxNomorHP.Text;
+                    konsumenDipilih.Gender = gender;
+                    konsumenDipilih.TglLahir = dateTimePickerTanggalLahir.Value;
+                    konsumenDipilih.Saldo = double.Parse(textBoxSaldo.Text);
+                    konsumenDipilih.Username = textBoxUsername.Text;
+                    konsumenDipilih.Password = textBoxPassword.Text;
+
+                    //panggil method UbahData di class Konsumen
+                    Konsumen.UbahData(konsumenDipilih);
+
+                    MessageBox.Show("Data konsumen telah diubah.", "Info");
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Pengubahan gagal. Pesan kesalahan : " + ex.Message, "Kesalahan");
+                }
             }
         }
     }

@@ -39,7 +39,7 @@ namespace Celikoor_Kelompok6
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormDaftarAktors";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormDaftarAktors";
+            this.Text = "Daftar Aktors";
             this.ResumeLayout(false);
 
         }

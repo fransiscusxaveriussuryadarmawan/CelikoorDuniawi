@@ -39,7 +39,7 @@ namespace Celikoor_Kelompok6
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormUbahCinema";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormUbahCinema";
+            this.Text = "Ubah Cinema";
             this.ResumeLayout(false);
 
         }

@@ -98,4 +98,3 @@ D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Data
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormUbahGenre.resources
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormUbahKelompok.resources
 D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormUbahKonsumen.resources
-D:\Pendidikan (Belajar)\UBAYA (All Semester)\Kuliah (Semester 3)\(1604C033) Database\Project UAS\Tahap 2\Celikoor_Kelompok6\obj\Debug\Celikoor_Kelompok6.FormUbahPegawai.resources

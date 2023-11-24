@@ -144,7 +144,7 @@ namespace Celikoor_LIB
             MySqlDataReader hasil = Koneksi.JalankanPerintahQuery(sql);
 
             //buat list untuk menampung data
-            List<Konsumen> listKonsumen = new List<Konsumen>(); //listnya berisi objek kategori
+            List<Konsumen> listKonsumen = new List<Konsumen>(); //listnya berisi objek konsumen
             while (hasil.Read() == true) //selama masih ada data atau masih bisa membaca data
             {
                 //baca data dari MySqlDataReader dan simpan di objek

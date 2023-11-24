@@ -29,6 +29,7 @@ namespace Celikoor_Kelompok6
             textBoxSaldo.Text = "";
             textBoxUsername.Text = "";
             textBoxPassword.Text = "";
+            textBoxUlangPassword.Text = "";
             textBoxNama.Focus();
         }
 
@@ -37,10 +38,12 @@ namespace Celikoor_Kelompok6
             if (checkBoxShowPass.Checked)
             {
                 textBoxPassword.PasswordChar = '\0';
+                textBoxUlangPassword.PasswordChar = '\0';
             }
             else
             {
                 textBoxPassword.PasswordChar = '*';
+                textBoxUlangPassword.PasswordChar = '*';
             }
         }
 
@@ -49,44 +52,54 @@ namespace Celikoor_Kelompok6
             if (checkBoxShowPass.Checked)
             {
                 textBoxPassword.PasswordChar = '\0';
+                textBoxUlangPassword.PasswordChar = '\0';
             }
             else
             {
                 textBoxPassword.PasswordChar = '*';
+                textBoxUlangPassword.PasswordChar = '*';
             }
         }
 
         private void buttonSimpan_Click(object sender, EventArgs e)
         {
-            try
+            if (textBoxPassword.Text != textBoxUlangPassword.Text)
             {
-                string gender = "";
-
-                if (radioButtonLaki.Checked)
-                {
-                    gender = "L";
-                }
-
-                else if (radioButtonWanita.Checked)
-                {
-                    gender = "P";
-                }
-
-                string kodeTerbaru = Konsumen.GenerateKode();
-
-                //ciptakan objek yang akan ditambah
-                Konsumen k = new Konsumen(kodeTerbaru, textBoxNama.Text, textBoxEmail.Text, textBoxNomorHP.Text, gender,
-                    dateTimePickerTanggalLahir.Value, double.Parse(textBoxSaldo.Text), textBoxUsername.Text, textBoxPassword.Text);
-
-                //panggil method TambahData di class kategori
-                Konsumen.TambahData(k);
-
-                MessageBox.Show("Data konsumen telah tersimpan.", "Info");
+                MessageBox.Show("Password tidak sama !");
             }
 
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("Penyimpanan gagal. Pesan kesalahan : " + ex.Message, "Kesalahan");
+                try
+                {
+                    string gender = "";
+
+                    if (radioButtonLaki.Checked)
+                    {
+                        gender = "L";
+                    }
+
+                    else if (radioButtonWanita.Checked)
+                    {
+                        gender = "P";
+                    }
+
+                    string kodeTerbaru = Konsumen.GenerateKode();
+
+                    //ciptakan objek yang akan ditambah
+                    Konsumen k = new Konsumen(kodeTerbaru, textBoxNama.Text, textBoxEmail.Text, textBoxNomorHP.Text, gender,
+                        dateTimePickerTanggalLahir.Value, double.Parse(textBoxSaldo.Text), textBoxUsername.Text, textBoxPassword.Text);
+
+                    //panggil method TambahData di class konsumen
+                    Konsumen.TambahData(k);
+
+                    MessageBox.Show("Data konsumen telah tersimpan.", "Info");
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Penyimpanan gagal. Pesan kesalahan : " + ex.Message, "Kesalahan");
+                }
             }
         }
 

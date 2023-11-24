@@ -367,7 +367,7 @@ namespace Celikoor_Kelompok6
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormUbahKonsumen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormUbahKonsumen";
+            this.Text = "Ubah Konsumen";
             this.Load += new System.EventHandler(this.FormUbahKonsumen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGaris)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();

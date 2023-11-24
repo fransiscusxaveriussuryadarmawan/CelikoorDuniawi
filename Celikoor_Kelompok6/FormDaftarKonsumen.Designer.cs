@@ -73,7 +73,8 @@ namespace Celikoor_Kelompok6
             "Nomor HP",
             "Gender",
             "Tanggal Lahir",
-            "Saldo Username"});
+            "Saldo ",
+            "Username"});
             this.comboBoxKriteria.Location = new System.Drawing.Point(211, 22);
             this.comboBoxKriteria.Name = "comboBoxKriteria";
             this.comboBoxKriteria.Size = new System.Drawing.Size(230, 30);

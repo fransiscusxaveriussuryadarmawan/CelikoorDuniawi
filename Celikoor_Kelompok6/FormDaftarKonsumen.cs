@@ -95,9 +95,6 @@ namespace Celikoor_Kelompok6
 
             if (listKonsumen.Count > 0) //jika listKategori terisi data
             {
-                ////tampilkan ke datagridview
-                //dataGridViewDaftarKonsumen.DataSource = listKonsumen;
-
                 //cek dulu jika jumlah kolom sudah 9, artinya sudah ada kolom aksi
                 if (dataGridViewDaftarKonsumen.Columns.Count < 9)
                 {
@@ -259,7 +256,7 @@ namespace Celikoor_Kelompok6
                     {
                         MessageBox.Show("Penghapusan data berhasil");
 
-                        //refresh form daftar kategori
+                        //refresh form daftar konsumen
                         FormDaftarKonsumen_Load(buttonKeluar, e);
                     }
 
