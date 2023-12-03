@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Celikoor_Kelompok6
 {
-    public partial class FormUbahKelompok : Form
+    public partial class FormDaftarFilms : Form
     {
-        public FormUbahKelompok()
+        public FormDaftarFilms()
         {
             InitializeComponent();
+        }
+
+        private void buttonKeluar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonTambah_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

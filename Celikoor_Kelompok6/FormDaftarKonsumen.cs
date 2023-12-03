@@ -271,5 +271,25 @@ namespace Celikoor_Kelompok6
                 }
             }
         }
+
+        private void comboBoxKriteria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelCariBerdasarkan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelDaftarKonsumen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelDaftarKonsumen_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

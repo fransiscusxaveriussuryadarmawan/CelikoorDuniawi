@@ -45,7 +45,7 @@ namespace Celikoor_Kelompok6
             // pictureBoxGaris
             // 
             this.pictureBoxGaris.BackColor = System.Drawing.Color.Tan;
-            this.pictureBoxGaris.Location = new System.Drawing.Point(-5, -35);
+            this.pictureBoxGaris.Location = new System.Drawing.Point(-13, -35);
             this.pictureBoxGaris.Name = "pictureBoxGaris";
             this.pictureBoxGaris.Size = new System.Drawing.Size(65, 149);
             this.pictureBoxGaris.TabIndex = 176;
@@ -57,7 +57,7 @@ namespace Celikoor_Kelompok6
             this.pictureBoxLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.BackgroundImage")));
             this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBoxLogo.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(37, -12);
+            this.pictureBoxLogo.Location = new System.Drawing.Point(29, -12);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.Size = new System.Drawing.Size(120, 126);
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -68,7 +68,7 @@ namespace Celikoor_Kelompok6
             // 
             this.buttonKosongi.BackColor = System.Drawing.Color.Tan;
             this.buttonKosongi.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKosongi.Location = new System.Drawing.Point(351, 236);
+            this.buttonKosongi.Location = new System.Drawing.Point(343, 236);
             this.buttonKosongi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonKosongi.Name = "buttonKosongi";
             this.buttonKosongi.Size = new System.Drawing.Size(163, 48);
@@ -81,7 +81,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelNamaCabang.AutoSize = true;
             this.labelNamaCabang.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNamaCabang.Location = new System.Drawing.Point(39, 142);
+            this.labelNamaCabang.Location = new System.Drawing.Point(31, 142);
             this.labelNamaCabang.Name = "labelNamaCabang";
             this.labelNamaCabang.Size = new System.Drawing.Size(86, 36);
             this.labelNamaCabang.TabIndex = 170;
@@ -90,7 +90,7 @@ namespace Celikoor_Kelompok6
             // textBoxNamaKelompok
             // 
             this.textBoxNamaKelompok.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNamaKelompok.Location = new System.Drawing.Point(282, 142);
+            this.textBoxNamaKelompok.Location = new System.Drawing.Point(274, 142);
             this.textBoxNamaKelompok.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxNamaKelompok.Name = "textBoxNamaKelompok";
             this.textBoxNamaKelompok.Size = new System.Drawing.Size(522, 39);
@@ -100,7 +100,7 @@ namespace Celikoor_Kelompok6
             // 
             this.buttonKembali.BackColor = System.Drawing.Color.Tan;
             this.buttonKembali.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKembali.Location = new System.Drawing.Point(689, 236);
+            this.buttonKembali.Location = new System.Drawing.Point(681, 236);
             this.buttonKembali.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonKembali.Name = "buttonKembali";
             this.buttonKembali.Size = new System.Drawing.Size(168, 48);
@@ -113,7 +113,7 @@ namespace Celikoor_Kelompok6
             // 
             this.buttonSimpan.BackColor = System.Drawing.Color.Tan;
             this.buttonSimpan.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSimpan.Location = new System.Drawing.Point(25, 236);
+            this.buttonSimpan.Location = new System.Drawing.Point(17, 236);
             this.buttonSimpan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonSimpan.Name = "buttonSimpan";
             this.buttonSimpan.Size = new System.Drawing.Size(163, 48);
@@ -126,7 +126,7 @@ namespace Celikoor_Kelompok6
             // 
             this.labelJudul.BackColor = System.Drawing.Color.Tan;
             this.labelJudul.Font = new System.Drawing.Font("Trebuchet MS", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelJudul.Location = new System.Drawing.Point(66, -2);
+            this.labelJudul.Location = new System.Drawing.Point(58, -2);
             this.labelJudul.Name = "labelJudul";
             this.labelJudul.Size = new System.Drawing.Size(864, 116);
             this.labelJudul.TabIndex = 163;

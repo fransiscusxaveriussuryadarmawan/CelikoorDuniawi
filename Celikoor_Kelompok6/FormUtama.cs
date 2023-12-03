@@ -215,91 +215,6 @@ namespace Celikoor_Kelompok6
             }
         }
 
-        private void studioToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form form = Application.OpenForms["FormDaftarStudio"];
-
-            if (form == null)
-            {
-                FormDaftarStudio formDaftarStudio = new FormDaftarStudio();
-                formDaftarStudio.MdiParent = this;
-                formDaftarStudio.Show();
-            }
-            else
-            {
-                form.Show();
-                form.BringToFront();
-            }
-        }
-
-        private void jenisStudioToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form form = Application.OpenForms["FormDaftarJenisStudio"];
-
-            if (form == null)
-            {
-                FormDaftarJenisStudio formDaftarJenisStudio = new FormDaftarJenisStudio();
-                formDaftarJenisStudio.MdiParent = this;
-                formDaftarJenisStudio.Show();
-            }
-            else
-            {
-                form.Show();
-                form.BringToFront();
-            }
-        }
-
-        private void genreToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form form = Application.OpenForms["FormDaftarGenre"];
-
-            if (form == null)
-            {
-                FormDaftarGenre formDaftarGenre = new FormDaftarGenre();
-                formDaftarGenre.MdiParent = this;
-                formDaftarGenre.Show();
-            }
-            else
-            {
-                form.Show();
-                form.BringToFront();
-            }
-        }
-
-        private void kelompokToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form form = Application.OpenForms["FormDaftarKelompok"];
-
-            if (form == null)
-            {
-                FormDaftarKelompok formDaftarKelompok = new FormDaftarKelompok();
-                formDaftarKelompok.MdiParent = this;
-                formDaftarKelompok.Show();
-            }
-            else
-            {
-                form.Show();
-                form.BringToFront();
-            }
-        }
-
-        private void aktorsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form form = Application.OpenForms["FormDaftarAktors"];
-
-            if (form == null)
-            {
-                FormDaftarAktors formDaftarAktors = new FormDaftarAktors();
-                formDaftarAktors.MdiParent = this;
-                formDaftarAktors.Show();
-            }
-            else
-            {
-                form.Show();
-                form.BringToFront();
-            }
-        }
-
         private void pegawaiToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Form form = Application.OpenForms["FormDaftarPegawai"];
@@ -369,40 +284,6 @@ namespace Celikoor_Kelompok6
         }
 
         private void cinemaToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            //Form form = Application.OpenForms["FormChangePassword"];
-
-            //if (form == null)
-            //{
-            //    FormChangePassword formChangePassword = new FormChangePassword();
-            //    formChangePassword.MdiParent = this;
-            //    formChangePassword.Show();
-            //}
-            //else
-            //{
-            //    form.Show();
-            //    form.BringToFront();
-            //}
-        }
-
-        private void studioToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            //Form form = Application.OpenForms["FormChangePassword"];
-
-            //if (form == null)
-            //{
-            //    FormChangePassword formChangePassword = new FormChangePassword();
-            //    formChangePassword.MdiParent = this;
-            //    formChangePassword.Show();
-            //}
-            //else
-            //{
-            //    form.Show();
-            //    form.BringToFront();
-            //}
-        }
-
-        private void jenisStudioToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             //Form form = Application.OpenForms["FormChangePassword"];
 
@@ -545,6 +426,126 @@ namespace Celikoor_Kelompok6
             userKonsumen = null;
 
             FormUtama_Load(this, e);
+        }
+
+        private void jadwalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form form = Application.OpenForms["FormDaftarJadwalFilms"];
+
+            if (form == null)
+            {
+                FormDaftarJadwalFilms formDaftarJadwalFilms = new FormDaftarJadwalFilms();
+                formDaftarJadwalFilms.MdiParent = this;
+                formDaftarJadwalFilms.Show();
+            }
+            else
+            {
+                form.Show();
+                form.BringToFront();
+            }
+        }
+
+        private void filmsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Form form = Application.OpenForms["FormChangePassword"];
+
+            //if (form == null)
+            //{
+            //    FormChangePassword formChangePassword = new FormChangePassword();
+            //    formChangePassword.MdiParent = this;
+            //    formChangePassword.Show();
+            //}
+            //else
+            //{
+            //    form.Show();
+            //    form.BringToFront();
+            //}
+        }
+
+        private void studioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form form = Application.OpenForms["FormDaftarStudio"];
+
+            if (form == null)
+            {
+                FormDaftarStudio formDaftarStudio = new FormDaftarStudio();
+                formDaftarStudio.MdiParent = this;
+                formDaftarStudio.Show();
+            }
+            else
+            {
+                form.Show();
+                form.BringToFront();
+            }
+            
+        }
+
+        private void jenisStudioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form form = Application.OpenForms["FormDaftarJenisStudio"];
+
+            if (form == null)
+            {
+                FormDaftarJenisStudio formDaftarJenisStudio = new FormDaftarJenisStudio();
+                formDaftarJenisStudio.MdiParent = this;
+                formDaftarJenisStudio.Show();
+            }
+            else
+            {
+                form.Show();
+                form.BringToFront();
+            }
+        }
+
+        private void genreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form form = Application.OpenForms["FormDaftarGenre"];
+
+            if (form == null)
+            {
+                FormDaftarGenre formDaftarGenre = new FormDaftarGenre();
+                formDaftarGenre.MdiParent = this;
+                formDaftarGenre.Show();
+            }
+            else
+            {
+                form.Show();
+                form.BringToFront();
+            }
+        }
+
+        private void kelompokToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form form = Application.OpenForms["FormDaftarKelompok"];
+
+            if (form == null)
+            {
+                FormDaftarKelompok formDaftarKelompok = new FormDaftarKelompok();
+                formDaftarKelompok.MdiParent = this;
+                formDaftarKelompok.Show();
+            }
+            else
+            {
+                form.Show();
+                form.BringToFront();
+            }
+        }
+
+        private void aktorsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form form = Application.OpenForms["FormDaftarAktors"];
+
+            if (form == null)
+            {
+                FormDaftarAktors formDaftarAktors = new FormDaftarAktors();
+                formDaftarAktors.MdiParent = this;
+                formDaftarAktors.Show();
+            }
+            else
+            {
+                form.Show();
+                form.BringToFront();
+            }
         }
     }
 }

@@ -84,11 +84,23 @@
     <Compile Include="FormDaftarCinema.Designer.cs">
       <DependentUpon>FormDaftarCinema.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDaftarFilms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDaftarFilms.Designer.cs">
+      <DependentUpon>FormDaftarFilms.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDaftarGenre.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDaftarGenre.Designer.cs">
       <DependentUpon>FormDaftarGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDaftarJadwalFilms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDaftarJadwalFilms.Designer.cs">
+      <DependentUpon>FormDaftarJadwalFilms.cs</DependentUpon>
     </Compile>
     <Compile Include="FormDaftarJenisStudio.cs">
       <SubType>Form</SubType>
@@ -156,11 +168,29 @@
     <Compile Include="FormTambahAktors.Designer.cs">
       <DependentUpon>FormTambahAktors.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTambahFilms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahFilms.Designer.cs">
+      <DependentUpon>FormTambahFilms.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTambahGenre.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormTambahGenre.Designer.cs">
       <DependentUpon>FormTambahGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTambahJadwalFilms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahJadwalFilms.Designer.cs">
+      <DependentUpon>FormTambahJadwalFilms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTambahJenisStudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahJenisStudio.Designer.cs">
+      <DependentUpon>FormTambahJenisStudio.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTambahKelompok.cs">
       <SubType>Form</SubType>
@@ -180,6 +210,12 @@
     <Compile Include="FormTambahPegawai.Designer.cs">
       <DependentUpon>FormTambahPegawai.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTambahStudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahStudio.Designer.cs">
+      <DependentUpon>FormTambahStudio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormUbahAktors.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,11 +228,17 @@
     <Compile Include="FormTambahCinema.Designer.cs">
       <DependentUpon>FormTambahCinema.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormUbahKelompok.cs">
+    <Compile Include="FormUbahFilms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormUbahKelompok.Designer.cs">
-      <DependentUpon>FormUbahKelompok.cs</DependentUpon>
+    <Compile Include="FormUbahFilms.Designer.cs">
+      <DependentUpon>FormUbahFilms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUbahJadwalFilms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUbahJadwalFilms.Designer.cs">
+      <DependentUpon>FormUbahJadwalFilms.cs</DependentUpon>
     </Compile>
     <Compile Include="FormUbahKonsumen.cs">
       <SubType>Form</SubType>
@@ -204,12 +246,19 @@
     <Compile Include="FormUbahKonsumen.Designer.cs">
       <DependentUpon>FormUbahKonsumen.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormUbahStudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUbahStudio.Designer.cs">
+      <DependentUpon>FormUbahStudio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormUtama.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormUtama.Designer.cs">
       <DependentUpon>FormUtama.cs</DependentUpon>
     </Compile>
+    <Compile Include="MySqlDataReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormChangePassword.resx">
@@ -224,8 +273,14 @@
     <EmbeddedResource Include="FormDaftarCinema.resx">
       <DependentUpon>FormDaftarCinema.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDaftarFilms.resx">
+      <DependentUpon>FormDaftarFilms.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDaftarGenre.resx">
       <DependentUpon>FormDaftarGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDaftarJadwalFilms.resx">
+      <DependentUpon>FormDaftarJadwalFilms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDaftarJenisStudio.resx">
       <DependentUpon>FormDaftarJenisStudio.cs</DependentUpon>
@@ -260,8 +315,17 @@
     <EmbeddedResource Include="FormTambahAktors.resx">
       <DependentUpon>FormTambahAktors.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahFilms.resx">
+      <DependentUpon>FormTambahFilms.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTambahGenre.resx">
       <DependentUpon>FormTambahGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahJadwalFilms.resx">
+      <DependentUpon>FormTambahJadwalFilms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahJenisStudio.resx">
+      <DependentUpon>FormTambahJenisStudio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTambahKelompok.resx">
       <DependentUpon>FormTambahKelompok.cs</DependentUpon>
@@ -272,17 +336,26 @@
     <EmbeddedResource Include="FormTambahPegawai.resx">
       <DependentUpon>FormTambahPegawai.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahStudio.resx">
+      <DependentUpon>FormTambahStudio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormUbahAktors.resx">
       <DependentUpon>FormUbahAktors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTambahCinema.resx">
       <DependentUpon>FormTambahCinema.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormUbahKelompok.resx">
-      <DependentUpon>FormUbahKelompok.cs</DependentUpon>
+    <EmbeddedResource Include="FormUbahFilms.resx">
+      <DependentUpon>FormUbahFilms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUbahJadwalFilms.resx">
+      <DependentUpon>FormUbahJadwalFilms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUbahKonsumen.resx">
       <DependentUpon>FormUbahKonsumen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUbahStudio.resx">
+      <DependentUpon>FormUbahStudio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUtama.resx">
       <DependentUpon>FormUtama.cs</DependentUpon>

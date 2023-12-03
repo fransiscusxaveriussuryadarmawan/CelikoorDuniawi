@@ -70,8 +70,6 @@ namespace Celikoor_Kelompok6
                 {
                     MessageBox.Show(this, "Username tidak ditemukan atau password salah");
                 }
-
-                this.DialogResult = DialogResult.OK;
             }
             catch (Exception ex)
             {

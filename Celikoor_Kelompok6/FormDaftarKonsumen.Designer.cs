@@ -51,6 +51,7 @@ namespace Celikoor_Kelompok6
             this.panelDaftarKonsumen.Name = "panelDaftarKonsumen";
             this.panelDaftarKonsumen.Size = new System.Drawing.Size(771, 71);
             this.panelDaftarKonsumen.TabIndex = 11;
+            this.panelDaftarKonsumen.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDaftarKonsumen_Paint);
             // 
             // textBoxKriteria
             // 
@@ -79,6 +80,7 @@ namespace Celikoor_Kelompok6
             this.comboBoxKriteria.Name = "comboBoxKriteria";
             this.comboBoxKriteria.Size = new System.Drawing.Size(230, 30);
             this.comboBoxKriteria.TabIndex = 1;
+            this.comboBoxKriteria.SelectedIndexChanged += new System.EventHandler(this.comboBoxKriteria_SelectedIndexChanged);
             // 
             // labelCariBerdasarkan
             // 
@@ -89,6 +91,7 @@ namespace Celikoor_Kelompok6
             this.labelCariBerdasarkan.Size = new System.Drawing.Size(193, 25);
             this.labelCariBerdasarkan.TabIndex = 0;
             this.labelCariBerdasarkan.Text = "Cari Berdasarkan :";
+            this.labelCariBerdasarkan.Click += new System.EventHandler(this.labelCariBerdasarkan_Click);
             // 
             // labelDaftarKonsumen
             // 
@@ -101,6 +104,7 @@ namespace Celikoor_Kelompok6
             this.labelDaftarKonsumen.TabIndex = 10;
             this.labelDaftarKonsumen.Text = "DAFTAR KONSUMEN";
             this.labelDaftarKonsumen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelDaftarKonsumen.Click += new System.EventHandler(this.labelDaftarKonsumen_Click);
             // 
             // buttonKeluar
             // 
